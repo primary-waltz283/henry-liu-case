@@ -33,6 +33,19 @@ export default function Afterword() {
           Mistral 的 OCR 技術，速度很快，辨識也精準。於是就這樣，五本書的內容，四個視角的交叉比對，變成了這個網站。
         </p>
 
+        <p className="text-sm text-neutral">
+          因為要做 OCR，所以開發了一個小小專案，可以把 PDF 的掃描圖檔變成 Markdown。Mistral 的速度都蠻快的，大概 1000 頁只要 2 塊美金。專案在這裡：
+          <a
+            href="https://github.com/soanseng/pdf-mistral-ocr"
+            className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            pdf-mistral-ocr
+          </a>
+          。
+        </p>
+
         <div className="my-8 border-l-4 border-paper-300 pl-4">
           <p className="text-sm italic text-neutral">
             行醫多年，我始終相信一件事——真相是療癒的前提。一個人的身體出了問題，要先有正確的診斷，才談得上治療。一個社會也是。
