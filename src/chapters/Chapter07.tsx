@@ -3,6 +3,7 @@ import ScrollSection from '../components/narrative/ScrollSection'
 import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
+import CausalityChain from '../components/infographic/CausalityChain'
 import { getContradiction } from '../data/contradictions'
 
 const ckKnowledgeContradiction = getContradiction('chiang-ching-kuo-knowledge')!
@@ -87,10 +88,7 @@ export default function Chapter07() {
       <ScrollSection>
         {(_progress) => (
           <div className="mx-auto max-w-4xl px-4 py-16">
-            {/* TODO: Task 4.6 — CausalityChain */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[causality-chain infographic]</p>
-            </div>
+            <CausalityChain />
           </div>
         )}
       </ScrollSection>

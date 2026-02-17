@@ -3,6 +3,7 @@ import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
+import DualTrialComparison from '../components/infographic/DualTrialComparison'
 import { getContradiction } from '../data/contradictions'
 
 const trialContradiction = getContradiction('trial-political-performance')!
@@ -84,10 +85,7 @@ export default function Chapter06() {
       <ScrollSection>
         {(_progress) => (
           <div className="mx-auto max-w-4xl px-4 py-16">
-            {/* TODO: Task 4.6 — DualTrialComparison */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[dual-trial-comparison infographic]</p>
-            </div>
+            <DualTrialComparison />
           </div>
         )}
       </ScrollSection>

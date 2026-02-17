@@ -2,6 +2,7 @@ import ChapterTitle from '../components/narrative/ChapterTitle'
 import Citation from '../components/narrative/Citation'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
+import IntelligenceOrgChart from '../components/infographic/IntelligenceOrgChart'
 
 /**
  * 第一章：龍的爪牙
@@ -110,10 +111,7 @@ export default function Chapter01() {
       <ScrollSection>
         {(_progress) => (
           <div className="mx-auto max-w-4xl px-4 py-16">
-            {/* TODO: Task 4.6 — IntelligenceOrgChart */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[intelligence-org-chart infographic]</p>
-            </div>
+            <IntelligenceOrgChart />
           </div>
         )}
       </ScrollSection>
