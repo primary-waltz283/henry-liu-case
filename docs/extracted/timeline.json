@@ -1,0 +1,1004 @@
+{
+  "metadata": {
+    "title": "江南案整合時間線",
+    "description": "從五份提取文件及公開資料彙整所有有明確日期的事件",
+    "created": "2026-02-17",
+    "sources": [
+      "01-fires-of-dragon-vol1.md",
+      "01-fires-of-dragon-vol2.md",
+      "02-dong-guisen.md",
+      "03-wu-dun-memoir.md",
+      "04-wang-hsi-ling.md",
+      "05-public-sources.md"
+    ]
+  },
+  "events": [
+    {
+      "date": "1910",
+      "title": "蔣經國出生",
+      "description": "蔣經國出生於浙江奉化",
+      "sources": ["龍之火上, L.812"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1925",
+      "title": "蔣經國赴莫斯科中山大學",
+      "description": "蔣經國前往蘇聯，加入共青團。在蘇聯半人質半流放 12 年",
+      "sources": ["龍之火上, L.823-860"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1929",
+      "title": "汪希苓出生",
+      "description": "汪希苓出生於浙江杭州",
+      "sources": ["忠與過, Ch.2"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1932-12-07",
+      "title": "劉宜良出生",
+      "description": "出生於中國江蘇省靖江縣。其生日此前一直記錯，1980 年回鄉時才發現實際日期",
+      "sources": ["龍之火上, L.522", "公開資料"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1937",
+      "title": "蔣經國返國",
+      "description": "蔣經國與俄國妻子方良經香港返國，結束 12 年留蘇歲月",
+      "sources": ["龍之火上, L.823-860"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1943",
+      "title": "崔蓉芝出生",
+      "description": "崔蓉芝（海倫）冬天出生於四川，父為國民黨空軍上校",
+      "sources": ["龍之火上, L.1461"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1943",
+      "title": "陳啟禮出生",
+      "description": "陳啟禮出生於江南地區（離劉宜良家鄉不到一百哩），後隨家人逃到台灣",
+      "sources": ["龍之火下, L.2148-2240"],
+      "chapter": 3,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1944-12",
+      "title": "汪希苓投考海軍",
+      "description": "汪希苓虛報年齡投考海軍，赴美受訓",
+      "sources": ["忠與過, Ch.2"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1945-04-25",
+      "title": "蔣孝武出生",
+      "description": "蔣經國次子蔣孝武出生",
+      "sources": ["公開資料"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1949",
+      "title": "劉宜良隨軍來台",
+      "description": "劉宜良約 17 歲隨軍來台",
+      "sources": ["龍之火上, L.522"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1949-08",
+      "title": "蔣經國受命掌管情報機構",
+      "description": "蔣介石委任蔣經國全面負責情報機構整合，將中統局與軍統局合併為總統府機要室參議組。未來 15 年間發展出五個主要情報機關",
+      "sources": ["龍之火上, L.860-878"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1950-06-25",
+      "title": "韓戰爆發",
+      "description": "杜魯門命第七艦隊進入台灣海峽，台灣由「政治累贅」變為「戰略要地」。大量軍事與經濟援助重啟",
+      "sources": ["龍之火上, L.769-790"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1951-12",
+      "title": "政治作戰學校成立",
+      "description": "蔣經國仿莫斯科模式設立政戰學校，培養效忠於他個人的幹部。劉宜良為首批學員之一。課程包括間諜術、審訊、測謊、新聞檢查、滲透、反間諜等",
+      "sources": ["龍之火上, L.960-1065"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1953",
+      "title": "吳國楨離台流亡",
+      "description": "吳國楨離台前險遭暗殺。公開信抨擊國民黨，稱蔣經國學生軍團為「希特勒式的年輕人」",
+      "sources": ["龍之火上, L.960-1130"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1954-01-06",
+      "title": "劉宜良被政戰學校開除",
+      "description": "畢業日因拒絕赴高雄第八軍分配而與隊長衝突被開除。劉不願做蔣經國的特務。劉後稱「事實上是我把這所幹部學校開除了」",
+      "sources": ["龍之火上, L.1100-1182"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1956",
+      "title": "竹聯幫成立",
+      "description": "竹聯幫在台北永和竹林路成立，初始 17 名青少年。成員多為軍政界官員子弟、大陸人背景。陳啟禮 13 歲入幫",
+      "sources": ["龍之火下, L.2148-2240"],
+      "chapter": 3,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1960-09",
+      "title": "《自由中國》雷震被捕",
+      "description": "雷震等人宣布建立反對黨。國民黨大搜捕，雷震以煽動叛亂罪判 10 年，傅正被判 6 年",
+      "sources": ["龍之火上, L.1376-1420"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1964",
+      "title": "彭明敏事件",
+      "description": "彭明敏、謝聰敏、魏廷朝試圖發表「台灣人民自我宣言」，均被判煽動罪入獄。國際特赦組織定為台灣首批「良心犯」",
+      "sources": ["龍之火上, L.1505-1518"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1965",
+      "title": "劉宜良首次赴港",
+      "description": "以《台灣日報》記者身份出港採訪，出版第一本書《香港紀行》。被香港知識自由的空氣震撼",
+      "sources": ["龍之火上, L.1575-1698"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1967-01",
+      "title": "劉宜良與崔蓉芝結婚",
+      "description": "劉與崔蓉芝結婚",
+      "sources": ["龍之火上, L.1898"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1967-02-28",
+      "title": "劉宜良離台赴美",
+      "description": "變賣所有家當，帶 300 美元和中華民國護照離台。以《台灣日報》駐美記者身份（無薪）赴美",
+      "sources": ["龍之火上, L.1898-1920"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1969-02",
+      "title": "劉宜良回台遇險",
+      "description": "不顧友人警告回台，友人告知警備司令部正在找他。驚恐之下取消約會，次日搭最早班機逃離。發誓不再回台灣",
+      "sources": ["龍之火上, L.2226-2265"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1969-08-15",
+      "title": "劉宜良獲美國永久居留權",
+      "description": "取得美國永久居留權",
+      "sources": ["龍之火上, L.2226"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1970-04",
+      "title": "蔣經國訪美、遭刺殺未遂",
+      "description": "蔣經國訪華府拜會尼克森。在紐約遭台獨分子黃文雄行刺未遂。劉宜良萌生撰寫蔣經國傳記的想法",
+      "sources": ["龍之火上, L.2310-2350"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1971-10-25",
+      "title": "台灣被逐出聯合國",
+      "description": "阿爾巴尼亞提案以 76:35 通過，承認中華人民共和國為中國合法代表",
+      "sources": ["龍之火上, L.2663-2700"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1972-02",
+      "title": "尼克森訪中",
+      "description": "尼克森成為首位訪中的美國總統。季辛吉 1971 年 7 月秘密訪京",
+      "sources": ["龍之火上, L.2864-2877"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1973-01",
+      "title": "劉宜良在香港發表蔣家文章",
+      "description": "在香港刊物發表《蔣介石私生活考》，極受歡迎。開始以多個筆名發表蔣家相關文章",
+      "sources": ["龍之火上, L.3107-3134"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1974-01",
+      "title": "汪希苓被任命為安全局副局長",
+      "description": "蔣經國破格任命，三級跳。蔣認為「好的情治人員不太容易找到」",
+      "sources": ["龍之火上, L.4277-4340", "忠與過, Ch.9"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1974-08",
+      "title": "劉宜良入美國籍",
+      "description": "在巴爾的摩法院宣誓，改名 Henry Y. Liu。宣誓結束立即致電中共聯絡處，申請回大陸探親",
+      "sources": ["龍之火上, L.3556-3564"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1975",
+      "title": "蔣介石去世",
+      "description": "嚴家淦繼任總統，實權在行政院長蔣經國手中。大赦約 7600 名囚犯",
+      "sources": ["龍之火上, L.3587-3600"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1975",
+      "title": "《蔣經國傳》被盜版出版",
+      "description": "《南北極》雜誌未經劉同意，將連載文章匯集出版 302 頁的書，以筆名丁依署名。書大受歡迎",
+      "sources": ["龍之火上, L.3699-3723"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1975-01",
+      "title": "汪希苓赴美任安全局駐美特派員",
+      "description": "接替梅可望，主管美國情報行動。大刀闊斧重組在美情報行動",
+      "sources": ["龍之火上, L.4277-4340", "忠與過, Ch.9"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1975-07",
+      "title": "劉宜良首次訪問中國大陸",
+      "description": "為期一個月，廣州→北京→天津→南京→上海→桂林→廣州。7 月 12 日在南京與弟妹團聚（分離 27 年）。民族自豪感油然而生",
+      "sources": ["龍之火上, L.3729-3930"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1975",
+      "title": "劉宜良成為 FBI 內線",
+      "description": "從大陸回美後被 FBI 例行詢問。FBI 認為劉非特務但是極佳「內線」發展對象。從此開始九年合作關係",
+      "sources": ["龍之火上, L.3931-3970"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1977",
+      "title": "汪希苓與劉宜良午餐會面",
+      "description": "地點：維吉尼亞州羅斯林大橋馬里尼特飯店。汪要求劉停止寫蔣家批評文章：「不許寫蔣家的事」。劉回敬：想寫的「唯一的事」就是蔣家",
+      "sources": ["龍之火上, L.4471-4518"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": {
+        "kaplan": "汪開門見山要求停筆，劉口頭答應但內心不服：「吃飯歸吃飯，寫作歸寫作」"
+      }
+    },
+    {
+      "date": "1977-06",
+      "title": "美國將台灣列入「敵意」國家名單",
+      "description": "首個非共產黨友好國家被列入此名單，與保加利亞、東德、蘇聯同列。同月汪希苓獲知美國已決定與中共建交",
+      "sources": ["龍之火上, L.4393-4400", "忠與過, Ch.10"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1978-04",
+      "title": "劉宜良遷居舊金山",
+      "description": "變賣華府兩家禮品店，舉家遷居加州大理市（Daly City），月租 300 美金",
+      "sources": ["龍之火上, L.4661-4685"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1978-12-15",
+      "title": "卡特宣布美中建交",
+      "description": "自 1979 年 1 月 1 日起建交。美台防禦條約一年內廢除。蔣經國凌晨 2:20 由安克志大使穿夜禮服通知",
+      "sources": ["龍之火上, L.4756-4910"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1979-01-01",
+      "title": "美中正式建交",
+      "description": "北京停止對金門馬祖炮擊，提出三通。汪希苓晉升中將",
+      "sources": ["龍之火上, L.5254-5298", "忠與過, Ch.10"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1980-02-28",
+      "title": "林宅血案",
+      "description": "台灣省議員林義雄家遭血洗：母親（60歲）及雙胞胎女兒（7歲）遇害，另一女兒（9歲）重傷。選在二二八週年日犯案。蔣孝武被認為與案件有關連",
+      "sources": ["龍之火下, L.290-320"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1980",
+      "title": "國民黨開始招募竹聯幫",
+      "description": "安全機構派代表到陳啟禮辦公室拜訪，要求打擊反對派。陳初拒絕。當局先用胡蘿蔔（高官宴請），後用大棒。陳最終屈服並重返幫主",
+      "sources": ["龍之火下, L.2240-2295"],
+      "chapter": 3,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1980-10-12",
+      "title": "劉宜良二度訪中",
+      "description": "北京→上海→靖江→溪口。10 月 24 日回靖江老家，離家 33 年首次回鄉。中共特許劉為首位訪問溪口蔣氏故居的外國人",
+      "sources": ["龍之火上, L.5327-5677"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1981-07-02",
+      "title": "陳文成教授被害",
+      "description": "卡內基·梅隆大學統計學副教授（31歲）被警備總部帶走審訊 13 小時。次日遺體在台大校園被發現。美國法醫斷言「毫無疑問，這是他殺」",
+      "sources": ["龍之火下, L.324-440"],
+      "chapter": 1,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1982-06",
+      "title": "《華盛頓郵報》曝光汪希苓情報身分",
+      "description": "報導直接點名汪希苓為台灣在美情報負責人，華府人脈全面萎縮",
+      "sources": ["忠與過, Ch.11"],
+      "chapter": 1,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1983",
+      "title": "王昇被免職",
+      "description": "蔣經國下令解散王昇決策班子、免除職務，年底貶至巴拉圭任大使。劉宜良隨即撰寫《王昇浮沉錄》",
+      "sources": ["龍之火下, L.1044-1072"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1983",
+      "title": "汪希苓出任情報局長",
+      "description": "蔣經國承諾「三年以後派你到安全局去」。汪「單槍匹馬」赴情報局就任",
+      "sources": ["忠與過, Ch.11"],
+      "chapter": 4,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1983-07-24",
+      "title": "《蔣經國傳》開始連載",
+      "description": "在《洛杉磯論壇報》連載，報酬約一千美元。國民黨立即表現極大關注",
+      "sources": ["龍之火下, L.1073-1120"],
+      "chapter": 2,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1983-09-04",
+      "title": "《江南小語》專欄開始",
+      "description": "劉宜良在《舊金山日報》開設每日約四百字短評專欄，首篇即抨擊王昇。此後有兩個固定發表渠道",
+      "sources": ["龍之火下, L.1151-1197"],
+      "chapter": 2,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1983-12",
+      "title": "夏曉華赴美勸說劉宜良",
+      "description": "情報局副局長荊自立攜劉宜良來信複印件及機票上門找夏。夏在美遊覽三週後向劉攤牌，要求停止寫批評文章",
+      "sources": ["龍之火下, L.1247-1340"],
+      "chapter": 4,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1984-02",
+      "title": "劉宜良同意修改《蔣傳》",
+      "description": "收 8,000 美元改稿費，另每月 1,000 美元情報聘請費。化名「劉向真」，身份號碼 0335。刪除蔣氏家庭生活整章",
+      "sources": ["龍之火下, L.1317-1496"],
+      "chapter": 4,
+      "significance": "turning-point",
+      "perspectives": {
+        "kaplan": "劉的動機：經濟困境、希望回台灣、報答夏曉華恩情、視為對國民黨的「報復」——拿錢但只做小改動",
+        "wangHsiLing": "代號 0325，化名「向真」，成立「三一專案」處理。每年領取 12,000 美元情報酬勞"
+      }
+    },
+    {
+      "date": "1984-03-25",
+      "title": "劉宜良寄出第一封情報信",
+      "description": "收信地址：台北 12658 信箱「李漢文」收。內容包括吳國楨可能訪大陸、舊金山灣區統戰活動",
+      "sources": ["龍之火下, L.1524-1795"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-06",
+      "title": "劉宜良發表《吳國楨八十懷往》",
+      "description": "在喬治亞州拜訪吳國楨，錄音 17 小時。爆炸性內容：1952 年蔣經國試圖謀殺吳國楨。劉暗示還有更多材料",
+      "sources": ["龍之火下, L.1876-1910"],
+      "chapter": 4,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1984-06-16",
+      "title": "帥嶽峯首次引介陳啟禮予汪希苓",
+      "description": "在汪希苓辦公室首次引見。此為審判中汪稱7月28日初識的六週前",
+      "sources": ["忠與過, Ch.14"],
+      "chapter": 4,
+      "significance": "turning-point",
+      "perspectives": {
+        "wangHsiLing": "審判中隱瞞此次會面，聲稱7月28日白景瑞家宴才初識陳啟禮"
+      }
+    },
+    {
+      "date": "1984-07",
+      "title": "崔暉策反風波",
+      "description": "情報局派兩名上校來舊金山要求劉介紹崔暉。會面告吹後，兩上校質疑劉可能是雙面間諜。汪希苓認定劉「背叛」",
+      "sources": ["龍之火下, L.1930-2010", "忠與過, Ch.13"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": {
+        "wangHsiLing": "崔曄事件令汪認定劉從線人變成潛在叛徒，成為制裁決定的核心轉折",
+        "dongGuisen": "陳虎門稱「江南設計暴露情報員」是最核心原因。報告於 8.10 到各人桌上",
+        "kaplan": "汪希苓決定暗殺的原因還包括批評蔣家文章和殺一儆百"
+      }
+    },
+    {
+      "date": "1984-07-28",
+      "title": "白景瑞家宴——汪希苓與陳啟禮「初識」",
+      "description": "台北，白景瑞家中。宴會 12 人。汪全程專注觀察陳啟禮。席間有人提到劉宜良名字",
+      "sources": ["龍之火下, L.2509-2550", "董桂森, ~line 725-795", "忠與過, Ch.14"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": {
+        "wangHsiLing": "審判中稱此為初次認識陳啟禮（實為第三次會面）",
+        "dongGuisen": "鈕嶺峰安排，把陳啟禮列入賓客。陳啟禮與汪希苓首次「正式」見面"
+      }
+    },
+    {
+      "date": "1984-08-02",
+      "title": "汪希苓正式吸收陳啟禮",
+      "description": "永康街情報局招待所。汪宣布暗殺任務：「必須把劉除掉」。陳回應：「把這個任務交給我吧」",
+      "sources": ["龍之火下, L.2549-2640", "忠與過, Ch.14"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": {
+        "wangHsiLing": "審判稱陳啟禮主動提出「教訓」，自己只是「隨口說的」",
+        "kaplan": "汪正式宣布「必須把劉除掉，他活著事情會變得無法收拾」",
+        "wuDun": "陳啟禮用詞始終是「制裁」而非「教訓」"
+      }
+    },
+    {
+      "date": "1984-08-04",
+      "title": "董桂森離台赴美",
+      "description": "原因為想走回正途、警方要求辦理幫派自首登記、考察美國市場",
+      "sources": ["董桂森, ~line 497-502"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-08-14",
+      "dateEnd": "1984-08-18",
+      "title": "陽明山情報局訓練",
+      "description": "陳啟禮（化名「鄴先生」）、帥嶽峰在松竹山莊受訓。課程：吸收新成員、大陸工作、密碼、攝影等。8 月 15 日汪希苓上山訓令「最嚴厲的處置」",
+      "sources": ["龍之火下, L.2723-2750", "吳敦回憶錄, 將軍口述", "忠與過, Ch.14"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": {
+        "wangHsiLing": "否認二度上山。「我是情報首長，首長不會隨便上山」。稱 8.15 中午飯局才臨時動念提到劉宜良",
+        "wuDun": "陳虎門稱汪批閱公文後臨時動念下達制裁令。先寫成公文呈報汪核可",
+        "dongGuisen": "陳虎門版本：汪 8.14 上山後才提出。陳啟禮版本：永康街第二次會面時已提出。作者傾向陳虎門版本",
+        "kaplan": "汪再次來訪強調：「一定要把劉宜良幹掉。假如他被人找到、又緩過來的話，事情就會非常嚴重」"
+      }
+    },
+    {
+      "date": "1984-09-02",
+      "title": "劉宜良第四次訪中",
+      "description": "香港→昆明→上海→靖江→北京。考察龍雲將軍生平，談合資企業，安排長子婚事。完全不知情報局正在密謀殺害他",
+      "sources": ["龍之火下, L.2768-2835"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-09-13",
+      "title": "南昌茶行查槍事件",
+      "description": "吳敦因南昌茶行被查獲槍枝而逃往美國",
+      "sources": ["吳敦回憶錄, Ch.1"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-09-14",
+      "title": "陳啟禮飛往美國執行任務",
+      "description": "天廚飯店送行晚宴。胡儀敏交付資料包：大理市地圖、劉宜良照片、個人資料、加州聯絡電話。陳攜帶 1.5 萬美元現金",
+      "sources": ["龍之火下, L.2842-2875", "吳敦回憶錄, Ch.1"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1984-09-16",
+      "title": "吳敦草率結婚",
+      "description": "因警方因素婚禮未成（原訂此日結婚）。吳敦認為陳啟禮若非有非常重要的事不會不留下參加",
+      "sources": ["吳敦回憶錄, Ch.1", "董桂森, ~line 380"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-09-20",
+      "title": "吳敦飛往美國",
+      "description": "搭華航直飛洛杉磯",
+      "sources": ["董桂森, ~line 378", "吳敦回憶錄, Ch.1"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-01",
+      "title": "劉宜良返美",
+      "description": "參加中華人民共和國國慶活動。汪希苓繼續匯款 3,000 美元以掩人耳目。劉從中國領事館回家後立即寫信向情報局報告",
+      "sources": ["龍之火下, L.2999-3130"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-10",
+      "title": "FBI 約談劉宜良",
+      "description": "FBI 反間諜處質疑劉帳戶中的 17,000 美元。劉含糊其辭。收到來自拉斯維加斯中國女子的威脅電話",
+      "sources": ["龍之火下, L.3245-3275"],
+      "chapter": 4,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-13",
+      "title": "董桂森抵達舊金山",
+      "description": "小皮帶董桂森從洛杉磯到舊金山，石頭火鍋店接風。陳啟禮出示情報員證件，稱劉為「漢奸」。董：「當然願意為國家做事」",
+      "sources": ["董桂森, ~line 504-511", "吳敦回憶錄, Ch.2"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-14",
+      "title": "暗殺前夜",
+      "description": "陳啟禮帶隊最後踩點確認江南在家。小皮到藝品店確認江南身分。同夜劉宜良與李乃義聊天至深夜，曇花盛開",
+      "sources": ["吳敦回憶錄, Ch.2", "龍之火下, L.3383"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-15",
+      "time": "09:20",
+      "title": "劉宜良遭槍殺",
+      "description": "在 Daly City 自宅車庫遭吳敦、董桂森槍殺。中三槍：頭部一槍（致命）、腹部兩槍。死亡時間：上午九時五十八分",
+      "sources": ["吳敦回憶錄, 序曲/Ch.2", "董桂森, Ch.1", "龍之火下, L.3383-3423", "公開資料"],
+      "chapter": "prologue",
+      "significance": "critical",
+      "perspectives": {
+        "wuDun": "「眼神才剛對接就扣下扳機。一槍斃命，無對話無扭打。我開第一槍（頭部），小董補兩槍。」自始至終接到的指令是「制裁」",
+        "dongGuisen": "「老鴨不遠千里把我找來，結果被吳敦偷了先機。於是我又朝倒在地上的人腹部開了兩槍」。事後才知殺了誰",
+        "kaplan": "吳從柱子後閃出用槍頂住劉的頭開槍。第一槍擊中鼻子右側深入大腦。劉雙膝著地臉朝天仰倒",
+        "wangHsiLing": "審判稱只想「教訓」，劉的死是陳啟禮一時衝動。汪自稱「如釋重負」但否認下殺令"
+      }
+    },
+    {
+      "date": "1984-10-15",
+      "title": "崔蓉芝指控蔣經國",
+      "description": "崔從書架取出《蔣經國傳》，指封面人物稱「殺害我丈夫的就是這個人」。透露劉替 FBI 蒐集情報",
+      "sources": ["龍之火上, L.600-715"],
+      "chapter": "prologue",
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-15",
+      "title": "陳啟禮向陳虎門報告",
+      "description": "以暗語通報：「買賣已成，送了三份禮物」（三槍）。幾乎同時，汪希苓下令取消任務——關鍵時間差",
+      "sources": ["董桂森, ~line 863-882", "吳敦回憶錄, 將軍口述", "忠與過, Ch.15"],
+      "chapter": 4,
+      "significance": "critical",
+      "perspectives": {
+        "wuDun": "陳虎門：「這個時間差，改變了台灣歷史。這就是天意。」",
+        "dongGuisen": "如果計算時差，也許只差了幾個小時或大半天"
+      }
+    },
+    {
+      "date": "1984-10-17",
+      "title": "國民黨「文化戰爭」秘密會議",
+      "description": "台北軍官俱樂部。所有情報與安全部門主管出席，討論根除「思想污染」",
+      "sources": ["龍之火下, L.3433-3505"],
+      "chapter": 5,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-18",
+      "title": "陳啟禮錄製保命錄音帶",
+      "description": "在洛杉磯謝大鈴（或謝大明）家地下室錄製。15 分鐘供詞：「我是情報局長汪希苓直接吸收我進情報局的」。編號 730063。製成兩份交董桂森和吳敦",
+      "sources": ["龍之火下, L.3702-3750", "董桂森, ~line 589-629", "吳敦回憶錄, Ch.6"],
+      "chapter": 5,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-21",
+      "title": "暗殺團隊返抵台灣",
+      "description": "經休士頓→西雅圖→日本→華航回台。陳虎門在桃園機場入境門口等候",
+      "sources": ["吳敦回憶錄, Ch.7", "董桂森, ~line 660-694"],
+      "chapter": 5,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-10-22",
+      "title": "汪希苓稱向汪敬煦報告江南案",
+      "description": "汪希苓稱主動向安全局長汪敬煦報告。汪敬煦斷然否認：「沒這回事。無論之前或之後，他都沒告訴我」",
+      "sources": ["忠與過, Ch.16"],
+      "chapter": 5,
+      "significance": "critical",
+      "perspectives": {
+        "wangHsiLing": "10月22日已主動報告",
+        "kaplan": "汪敬煦酒後向美國官員承認知情（後以書面否認）"
+      }
+    },
+    {
+      "date": "1984-10-26",
+      "title": "天廚餐廳慰勞聚會",
+      "description": "陳虎門交付兩萬美金信封袋（「差旅費」）。吳敦拒收：「能夠替國家辦事，很光榮，談錢就俗氣了」",
+      "sources": ["吳敦回憶錄, Ch.7", "董桂森, ~line 1475-1511"],
+      "chapter": 5,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-11-12",
+      "title": "一清專案全面啟動",
+      "description": "台灣史上最大規模鎮壓竹聯幫行動。午夜前突襲全台，陳啟禮在家被捕——大喊自己是情報局人員。在筆記本中發現「誅殺叛逆劉宜良經過」",
+      "sources": ["龍之火下, L.4086-4160", "吳敦回憶錄, Ch.8", "忠與過, Ch.16"],
+      "chapter": 5,
+      "significance": "critical",
+      "perspectives": {
+        "wuDun": "真正目的不是掃黑而是安全局對情報局的權力鬥爭。第一目標就是陳啟禮",
+        "dongGuisen": "顏世錫證實「奉令一定要先把陳啟禮逮捕之後再發動其他逮捕行動」"
+      }
+    },
+    {
+      "date": "1984-11-22",
+      "title": "FBI 抓獲皮建鑫",
+      "description": "在蒙特利公園逮捕，馬拉松式審訊後供出殺手真實身份",
+      "sources": ["龍之火下, L.3840-3974"],
+      "chapter": 5,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1984-11-24",
+      "title": "吳敦紅毛港偷渡折返",
+      "description": "準備搭竹筏偷渡到外海赴香港。在竹筏上回望燈火，想起陳啟禮，大喊「回頭！」決定折返——若他也逃了，陳啟禮將無人佐證",
+      "sources": ["吳敦回憶錄, Ch.9"],
+      "chapter": 5,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1984-11-25",
+      "title": "吳敦被捕",
+      "description": "透過劉家昌安排投案但被警方搶先逮捕。高喊「替國家鋤奸」",
+      "sources": ["吳敦回憶錄, Ch.10"],
+      "chapter": 5,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1984-11-27",
+      "title": "舊金山警方宣告江南案偵破",
+      "description": "確認竹聯幫成員為嫌犯",
+      "sources": ["董桂森, ~line 554-577"],
+      "chapter": 5,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1984-12-30",
+      "title": "董桂森逃離台灣",
+      "description": "透過卓碧如安排，花 40 萬台幣，佩戴公務通行證，用女性護照從桃園機場出境至菲律賓",
+      "sources": ["董桂森, ~line 1623-1670", "龍之火下, L.4146-4157"],
+      "chapter": 6,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1985-01-13",
+      "title": "保命錄音帶交給 FBI",
+      "description": "白狼在蒙特利公園市林肯廣場飯店 707 房將錄音帶交給 FBI。陳啟禮供述汪希苓直接指派暗殺。次日陳虎門被捕，1 月 15 日汪希苓停職",
+      "sources": ["龍之火下, L.4430-4557", "董桂森, ~line 589-629", "忠與過, Ch.17"],
+      "chapter": 5,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1985-01-15",
+      "title": "國民黨承認情報局涉案",
+      "description": "汪希苓中將停職。新聞局聲明：「我們的情報官員參與謀殺劉宜良，政府無比震驚」",
+      "sources": ["龍之火下, L.4510-4557"],
+      "chapter": 5,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1985-01-22",
+      "title": "美國調查團首度赴台",
+      "description": "雷斯警官、劉善謙赴台。審問陳啟禮三次共六小時。測謊結果：兩人都沒有說實話",
+      "sources": ["龍之火下, L.4564-4660"],
+      "chapter": 6,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1985-02-07",
+      "title": "美國國會聽證會",
+      "description": "索拉茲主持亞太事務委員會聽證。崔蓉芝出庭作證。聽證當天國務院宣布向台灣出售超過 5,000 萬美元武器",
+      "sources": ["龍之火下, L.4710-4763", "公開資料"],
+      "chapter": 6,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1985-03-01",
+      "title": "白狼公開指控蔣孝武",
+      "description": "張安樂在蒙特利公園集會上公開指控蔣孝武為幕後主謀。次日接受 CBS《六十分鐘》採訪。張多年後坦承蔣孝武是冤枉的——「圍魏救趙」策略",
+      "sources": ["龍之火下, L.4966-5010", "董桂森, ~line 1285-1354"],
+      "chapter": 6,
+      "significance": "critical",
+      "perspectives": {
+        "dongGuisen": "向拔京提議、與張安樂整夜激辯後的策略。目的是保護陳啟禮不被滅口",
+        "wuDun": "咬蔣孝武是救援策略：「喊得越大聲，身家性命才越有保障」",
+        "kaplan": "蔣孝武發表聲明否認：「我從來沒有見過陳啟禮」。竹聯幫成員憤怒——許多人看到他們多次在一起"
+      }
+    },
+    {
+      "date": "1985-03-06",
+      "title": "美國十人調查團二度赴台",
+      "description": "審問汪希苓。測謊「血壓和反應都跳出了表格」，專家當場說「一派胡言」。汪始終不供出上面的人",
+      "sources": ["龍之火下, L.4771-4830"],
+      "chapter": 6,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1985-04",
+      "title": "台灣審判判決",
+      "description": "台北區法院判陳啟禮和吳敦終身監禁。軍事法庭判汪希苓無期徒刑，胡儀敏兩年半，陳虎門兩年半。審判認定汪有「私怨」（有意淡化政治動機）",
+      "sources": ["龍之火下, L.4870-4945", "忠與過, Ch.1/Ch.18", "公開資料"],
+      "chapter": 6,
+      "significance": "critical",
+      "perspectives": {
+        "wangHsiLing": "選擇一肩扛起所有罪責，不牽連上層。策略可「保護國家」",
+        "kaplan": "崔蓉芝評論：「搶劫犯經常被判死刑，這些判決太輕了」。審判從未追查出更上面的人",
+        "wuDun": "陳啟禮悄聲說「忍耐一點，五年後就出來了」"
+      }
+    },
+    {
+      "date": "1985",
+      "title": "董桂森在巴西被捕",
+      "description": "9 月 20 日在里約熱內盧旅館被捕。使用假泰國護照。美方透過黃鳥照片鎖定行蹤",
+      "sources": ["董桂森, ~line 1890", "龍之火下, L.5040-5140"],
+      "chapter": 6,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1985-10-11",
+      "title": "崔蓉芝提起民事訴訟",
+      "description": "以不法致死、RICO 等罪名控告中華民國政府，索賠約 2.5 億美元",
+      "sources": ["公開資料"],
+      "chapter": 6,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1986-01-23",
+      "title": "FBI 來台測謊",
+      "description": "陳虎門智鬥 FBI 四招策略：要求律師、審視儀器、提供無關內幕、要求看拳賽。結論是陳虎門沒有說謊。汪希苓、胡儀敏則測謊未過",
+      "sources": ["吳敦回憶錄, Ch.12"],
+      "chapter": 6,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1986",
+      "title": "蔣孝武被逐出台灣",
+      "description": "蔣經國將蔣孝武派駐新加坡，後轉駐日本。蔣經國宣布蔣家成員繼任總統「不可能」",
+      "sources": ["龍之火下, L.5220-5260", "公開資料"],
+      "chapter": 7,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1986",
+      "title": "崔蓉芝探視董桂森",
+      "description": "在紐約大都會拘留中心。董桂森趨前雙手握住崔蓉芝的手連聲「對不起」。崔未得到想要的答案——董對劉宜良一無所知",
+      "sources": ["董桂森, ~line 2623-2740"],
+      "chapter": 6,
+      "significance": "background",
+      "perspectives": null
+    },
+    {
+      "date": "1986-07",
+      "dateEnd": "1986-09",
+      "title": "竹聯幫大審",
+      "description": "紐約南區聯邦法庭，歷時八週。11 名被告均判有罪。董桂森 20 年、張安樂 15 年、黃鳥 100 年",
+      "sources": ["董桂森, ~line 2306-2316"],
+      "chapter": 6,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1987",
+      "title": "台灣解除戒嚴",
+      "description": "戒嚴令終於結束（自 1949 年實施 38 年）。政治犯被釋放，流亡海外者排出黑名單。胡儀敏、陳虎門出獄",
+      "sources": ["龍之火下, L.5220-5260", "忠與過, Ch.19", "公開資料"],
+      "chapter": 7,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1988-01-13",
+      "title": "蔣經國逝世",
+      "description": "享年 78 歲。李登輝繼任。蔣經國原有意特赦汪希苓，但計劃未及實現",
+      "sources": ["龍之火下, L.5264-5275", "忠與過, Ch.19"],
+      "chapter": 7,
+      "significance": "critical",
+      "perspectives": null
+    },
+    {
+      "date": "1988",
+      "title": "董桂森在加州被判一級謀殺",
+      "description": "判刑 27 年至無期徒刑。法庭聲明：「這不是個人行為，也不是幫派行為，而是政府的行為」",
+      "sources": ["董桂森, ~line 275", "公開資料"],
+      "chapter": 6,
+      "significance": "turning-point",
+      "perspectives": null
+    },
+    {
+      "date": "1990",
+      "title": "崔蓉芝民事訴訟和解",
+      "description": "行政院以「人道恩賜金」名義，以 145 萬美元與崔蓉芝達成和解（原求償約 2.5 億美元）。另 129 萬美元律師費",
+      "sources": ["忠與過, Ch.19", "公開資料"],
+      "chapter": 7,
+      "significance": "aftermath",
+      "perspectives": null
+    },
+    {
+      "date": "1991-01",
+      "title": "陳啟禮、吳敦、汪希苓獲釋",
+      "description": "建國八十年大赦。均服刑約六年。陳啟禮聲稱皈依佛教",
+      "sources": ["龍之火下, L.5537-5572", "忠與過, Ch.19", "公開資料"],
+      "chapter": 7,
+      "significance": "aftermath",
+      "perspectives": null
+    },
+    {
+      "date": "1991-04-03",
+      "title": "董桂森死於獄中鬥毆",
+      "description": "在美國 Lewisburg 聯邦監獄遭刺身亡，身受多處刀傷。官方稱因香菸引起鬥毆，陰謀論指政治滅口",
+      "sources": ["董桂森, ~line 2741-2868", "公開資料"],
+      "chapter": 6,
+      "significance": "critical",
+      "perspectives": {
+        "dongGuisen": "作者認為是「意外被刺」非滅口。死因為與非裔獄友因香菸起爭執，對方持自製刀刺入",
+        "kaplan": "死於聯邦監獄械鬥，身受多處刀傷"
+      }
+    },
+    {
+      "date": "1991-07-01",
+      "title": "蔣孝武猝逝",
+      "description": "在日本因心臟衰竭去世，享年 46 歲。始終未受審",
+      "sources": ["龍之火下, L.5537-5572", "公開資料"],
+      "chapter": 7,
+      "significance": "aftermath",
+      "perspectives": null
+    },
+    {
+      "date": "2007-10-04",
+      "title": "陳啟禮病逝",
+      "description": "在香港因胰腺癌去世，享年 63 歲。1996 年曾流亡柬埔寨",
+      "sources": ["公開資料"],
+      "chapter": 7,
+      "significance": "aftermath",
+      "perspectives": null
+    },
+    {
+      "date": "2024",
+      "title": "江南案 40 週年",
+      "description": "李天鐸出版《江南案拼圖》。邀請陳虎門等涉案人員各述己見，呈現三種主要觀點：體制失控論、國家利益論、職責遂行論",
+      "sources": ["公開資料"],
+      "chapter": 7,
+      "significance": "aftermath",
+      "perspectives": null
+    },
+    {
+      "date": "2026-02-03",
+      "title": "吳敦辭世",
+      "description": "在台灣睡夢中安詳辭世，享壽 77 歲。至此江南案三名直接執行者（陳啟禮、董桂森、吳敦）均已不在人世",
+      "sources": ["公開資料"],
+      "chapter": 7,
+      "significance": "aftermath",
+      "perspectives": null
+    }
+  ]
+}
