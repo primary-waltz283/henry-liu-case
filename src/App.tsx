@@ -1,3 +1,4 @@
+import CharacterMap from './components/infographic/CharacterMap'
 import ContentWarning from './components/ui/ContentWarning'
 import {
   Prologue,
@@ -34,6 +35,9 @@ function App() {
           <Chapter06 />
           <Chapter07 />
         </main>
+
+        {/* Global: Character relationship map */}
+        <CharacterMap />
 
         <footer className="py-16 text-center text-sm text-neutral">
           <p>本網站內容基於歷史文獻整理，所有引述均標註出處。</p>
