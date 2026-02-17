@@ -3,6 +3,7 @@ import ScrollSection from '../components/narrative/ScrollSection'
 import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
+import FortyEightHourTimeline from '../components/infographic/FortyEightHourTimeline'
 import { getContradiction } from '../data/contradictions'
 
 const meetingContradiction = getContradiction('wang-chen-first-meeting')!
@@ -183,13 +184,10 @@ export default function Chapter04() {
       </ScrollSection>
 
       {/* Infographic: 48-hour-timeline */}
-      <ScrollSection minHeight="150vh">
-        {(_progress) => (
-          <div className="sticky top-0 flex min-h-screen items-center justify-center">
-            {/* TODO: Task 4.3 — FortyEightHourTimeline */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[48-hour-timeline infographic]</p>
-            </div>
+      <ScrollSection minHeight="300vh">
+        {(progress) => (
+          <div className="sticky top-0 min-h-screen overflow-y-auto">
+            <FortyEightHourTimeline progress={progress} />
           </div>
         )}
       </ScrollSection>
