@@ -10,6 +10,7 @@ const CHAPTERS = [
   { id: 'chapter-06', label: '陸', title: '審判與餘波' },
   { id: 'chapter-07', label: '柒', title: '解嚴之路' },
   { id: 'sources', label: '源', title: '資料來源' },
+  { id: 'afterword', label: '記', title: '後記' },
 ]
 
 /**

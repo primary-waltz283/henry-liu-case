@@ -2,6 +2,7 @@ import CharacterMap from './components/infographic/CharacterMap'
 import ContentWarning from './components/ui/ContentWarning'
 import ChapterNav from './components/ui/ChapterNav'
 import SourcesSection from './components/ui/SourcesSection'
+import Afterword from './components/ui/Afterword'
 import ChapterDivider from './components/narrative/ChapterDivider'
 import FadeInSection from './components/narrative/FadeInSection'
 import {
@@ -62,6 +63,8 @@ function App() {
         <CharacterMap />
 
         <SourcesSection />
+
+        <Afterword />
 
         <footer className="py-16 text-center text-sm text-neutral">
           <p>本網站內容基於歷史文獻整理，所有引述均標註出處。</p>

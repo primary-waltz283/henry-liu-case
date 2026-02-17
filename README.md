@@ -109,8 +109,31 @@ npx tsc --noEmit
 
 ---
 
+## 系列網站
+
+本站為「台灣威權時代重大案件」互動式歷史紀錄系列之一：
+
+| 案件 | 網址 |
+|------|------|
+| 林宅血案 | [soanseng.github.io/the-lin](https://soanseng.github.io/the-lin/) |
+| 陳文成事件 | [soanseng.github.io/Chen-Wen-chen](https://soanseng.github.io/Chen-Wen-chen/) |
+| **江南案**（本站） | [soanseng.github.io/henry-liu-case](https://soanseng.github.io/henry-liu-case/) |
+
+---
+
+## 作者
+
+**陳璿丞 醫師**
+
+- [anatomind.com](https://anatomind.com)
+- [Facebook](https://facebook.com/anatomind)
+
+---
+
 ## 授權
 
 本專案程式碼以 MIT 授權釋出。
+
+歷史不屬於任何人，它屬於所有人。如果你能讓這份記錄被更多人看見——翻譯、改作、引用——請自由取用。
 
 歷史內容基於公開資料與書籍摘要重新撰寫，原始書籍版權歸原作者所有。
