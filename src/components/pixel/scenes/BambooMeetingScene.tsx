@@ -135,12 +135,12 @@ function setupScene(app: Application): SceneState {
   app.stage.addChild(overlay)
 
   // Draw initial dishes
-  drawDishes(dishes, 0)
+  drawDishes(dishes)
 
   return { room, table, lamp, guests, wang, chen, dishes, eyes, redLine, overlay }
 }
 
-function drawDishes(g: Graphics, _animPhase: number) {
+function drawDishes(g: Graphics) {
   g.clear()
   // Wine glasses
   const glassPositions = [

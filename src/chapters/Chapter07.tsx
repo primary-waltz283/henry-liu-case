@@ -20,7 +20,7 @@ export default function Chapter07() {
 
       {/* 政治海嘯、蔣家王朝的終結、解嚴 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
 
@@ -86,7 +86,7 @@ export default function Chapter07() {
 
       {/* Infographic: causality-chain */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-4xl px-4 py-16">
             <CausalityChain />
           </div>
@@ -95,7 +95,7 @@ export default function Chapter07() {
 
       {/* 吳敦的最後證言、五大未解之謎 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
 

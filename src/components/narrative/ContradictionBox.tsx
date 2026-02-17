@@ -39,6 +39,7 @@ export default function ContradictionBox({
       <button
         type="button"
         onClick={() => setExpanded(!expanded)}
+        aria-expanded={expanded}
         className="flex w-full items-center justify-between text-left"
       >
         <div className="flex items-center gap-2">

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 interface TypewriterTextProps {
   /** The full text to type out */
@@ -22,21 +22,32 @@ export default function TypewriterText({
   className = '',
 }: TypewriterTextProps) {
   const [displayedLength, setDisplayedLength] = useState(0)
+  const lengthRef = useRef(0)
 
   useEffect(() => {
     if (!active) {
-      setDisplayedLength(0)
+      lengthRef.current = 0
       return
     }
 
-    if (displayedLength >= text.length) return
+    let cancelled = false
+    lengthRef.current = 0
 
-    const timer = setTimeout(() => {
-      setDisplayedLength((prev) => prev + 1)
-    }, speed)
+    function tick() {
+      if (cancelled) return
+      lengthRef.current++
+      setDisplayedLength(lengthRef.current)
+      if (lengthRef.current < text.length) {
+        setTimeout(tick, speed)
+      }
+    }
 
-    return () => clearTimeout(timer)
-  }, [active, displayedLength, text.length, speed])
+    setTimeout(tick, speed)
+
+    return () => {
+      cancelled = true
+    }
+  }, [active, text, speed])
 
   return (
     <span className={`typewriter ${className}`}>

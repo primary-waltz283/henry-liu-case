@@ -27,7 +27,7 @@ export default function Chapter04() {
 
       {/* 第一個巧合：白景瑞的飯局 / 永康街 / 陽明山 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16 space-y-6">
 
             <h3 className="text-xl font-bold text-ink-800 mt-8">
@@ -202,7 +202,7 @@ export default function Chapter04() {
 
       {/* Infographic: contradiction-table */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-7xl px-4">
             <ContradictionTable />
           </div>
@@ -211,7 +211,7 @@ export default function Chapter04() {
 
       {/* 第三個巧合：取消令與時間差 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16 space-y-6">
 
             <h3 className="text-xl font-bold text-ink-800 mt-8">

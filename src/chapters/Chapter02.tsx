@@ -22,7 +22,7 @@ export default function Chapter02() {
 
       {/* 靖江少年、從廣播到寫作、美國夢 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16 space-y-8">
             <h3 className="text-xl font-bold text-ink-800 mt-8">靖江少年</h3>
             <p className="text-ink-700 leading-relaxed">
@@ -92,7 +92,7 @@ export default function Chapter02() {
 
       {/* 暗殺動機之謎、三重身份 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16 space-y-8">
             <h3 className="text-xl font-bold text-ink-800 mt-8">他為何而死？</h3>
             <p className="text-ink-700 leading-relaxed">

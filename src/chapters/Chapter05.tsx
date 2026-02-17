@@ -22,7 +22,7 @@ export default function Chapter05() {
 
       {/* 國民黨的第一反應、陳啟禮的保命錄音帶 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">國民黨的第一反應</h3>
@@ -82,7 +82,7 @@ export default function Chapter05() {
 
       {/* Infographic: investigation-flowchart */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-4xl px-4 py-16">
             {/* TODO: Task 4.6 — InvestigationFlowchart */}
             <div className="text-center text-neutral">
@@ -94,7 +94,7 @@ export default function Chapter05() {
 
       {/* 一清專案、錄音帶曝光、董桂森逃亡 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">FBI 介入</h3>

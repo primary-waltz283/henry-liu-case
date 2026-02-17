@@ -79,3 +79,58 @@ body {
   @apply border border-paper-300 bg-paper-100 p-4 shadow-sm;
   transform: rotate(-0.5deg);
 }
+
+/* ── Focus styles for accessibility ── */
+
+:focus-visible {
+  outline: 2px solid var(--color-link-blue);
+  outline-offset: 2px;
+}
+
+/* ── Skip to content link ── */
+
+.skip-link {
+  @apply fixed left-2 top-2 z-50 bg-ink-900 px-4 py-2 text-sm text-paper-50;
+  transform: translateY(-100%);
+  transition: transform 0.2s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* ── Smooth scrolling ── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── RWD: Mobile optimizations ── */
+
+@media (max-width: 640px) {
+  /* Reduce padding on small screens */
+  .stamp {
+    font-size: 0.875rem;
+    padding: 0.15em 0.5em;
+  }
+
+  /* Prevent horizontal overflow from rotated elements */
+  .clipping {
+    transform: none;
+  }
+}

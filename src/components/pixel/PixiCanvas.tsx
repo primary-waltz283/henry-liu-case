@@ -18,26 +18,35 @@ interface PixiCanvasProps {
   onUpdate?: (app: Application, progress: number) => void
   /** Additional CSS classes */
   className?: string
+  /** Accessible label for the scene */
+  ariaLabel?: string
 }
 
 export default function PixiCanvas({
   width = 320,
   height = 180,
-  scale = 2,
+  scale: scaleProp = 2,
   backgroundColor = 0xfaf8f4,
   progress = 0,
   onSetup,
   onUpdate,
   className = '',
+  ariaLabel,
 }: PixiCanvasProps) {
+  // Reduce scale on mobile for performance
+  const scale = typeof window !== 'undefined' && window.innerWidth < 640
+    ? Math.max(1, scaleProp - 1)
+    : scaleProp
   const containerRef = useRef<HTMLDivElement>(null)
   const appRef = useRef<Application | null>(null)
   const progressRef = useRef(progress)
   const onUpdateRef = useRef(onUpdate)
 
-  // Keep refs in sync
-  progressRef.current = progress
-  onUpdateRef.current = onUpdate
+  // Keep refs in sync via effect
+  useEffect(() => {
+    progressRef.current = progress
+    onUpdateRef.current = onUpdate
+  })
 
   const initApp = useCallback(
     async (container: HTMLDivElement) => {
@@ -107,6 +116,8 @@ export default function PixiCanvas({
       ref={containerRef as RefObject<HTMLDivElement>}
       className={`overflow-hidden ${className}`}
       style={{ aspectRatio: `${width}/${height}` }}
+      role="img"
+      aria-label={ariaLabel}
     />
   )
 }

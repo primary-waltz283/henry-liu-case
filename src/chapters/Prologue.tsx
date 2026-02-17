@@ -20,7 +20,7 @@ export default function Prologue() {
 
       {/* 環境建立 — Daly City 清晨 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16 space-y-6">
             <p className="text-lg font-bold text-ink-800">
               1984 年 10 月 15 日，加州大理市（Daly City）
@@ -116,7 +116,7 @@ export default function Prologue() {
 
       {/* 撤離與餘波 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16 space-y-6">
             <p className="leading-relaxed">
               兩名殺手騎上事先停放的自行車，到社區外跳上皮建鑫（小皮）的接應車。吳敦回頭擦去自行車把手上的指紋。但他沒有擦另一輛——陳啟禮的那輛。FBI

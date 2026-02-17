@@ -24,7 +24,7 @@ export default function Chapter06() {
 
       {/* 美國調查團赴台、台灣軍事審判 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">美國調查團赴台</h3>
@@ -84,7 +84,7 @@ export default function Chapter06() {
 
       {/* Infographic: dual-trial-comparison */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-4xl px-4 py-16">
             <DualTrialComparison />
           </div>
@@ -93,7 +93,7 @@ export default function Chapter06() {
 
       {/* 蔣孝武之謎、美國審判 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">蔣孝武之謎</h3>
@@ -169,7 +169,7 @@ export default function Chapter06() {
 
       {/* 董桂森之死、民事和解、大赦結局 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">董桂森之死</h3>

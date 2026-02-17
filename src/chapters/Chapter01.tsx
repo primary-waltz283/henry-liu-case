@@ -17,7 +17,7 @@ export default function Chapter01() {
 
       {/* 韓戰與台灣命運、蔣經國的安全帝國 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
 
@@ -106,7 +106,7 @@ export default function Chapter01() {
 
       {/* Infographic: intelligence-org-chart */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-4xl px-4 py-16">
             <IntelligenceOrgChart />
           </div>
@@ -115,7 +115,7 @@ export default function Chapter01() {
 
       {/* 海外情報擴張與汪希苓登場 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
 

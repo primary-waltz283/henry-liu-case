@@ -16,7 +16,7 @@ export default function Chapter03() {
 
       {/* 竹林路上的少年、陳啟禮、吳敦、董桂森 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">竹林路上的少年</h3>
@@ -79,7 +79,7 @@ export default function Chapter03() {
 
       {/* 國民黨招募黑道 */}
       <ScrollSection>
-        {(_progress) => (
+        {() => (
           <div className="mx-auto max-w-2xl px-4 py-16">
             <div className="space-y-6">
               <h3 className="mt-8 text-xl font-bold text-ink-800">國民黨招募黑道</h3>

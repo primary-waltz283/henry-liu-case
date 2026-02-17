@@ -32,9 +32,12 @@ export default function ChapterTitle({
   const label = CHAPTER_LABELS[chapter] ?? `第${chapter}章`
 
   return (
-    <header className={`relative py-12 text-center ${className}`}>
+    <header
+      className={`relative py-12 text-center ${className}`}
+      aria-label={`${label}：${title}`}
+    >
       {stamp && (
-        <div className="stamp mb-4 text-lg">{stamp}</div>
+        <div className="stamp mb-4 text-lg" aria-hidden="true">{stamp}</div>
       )}
       <p className="text-sm tracking-widest text-neutral uppercase">
         {label}
@@ -42,7 +45,7 @@ export default function ChapterTitle({
       <h2 className="mt-2 font-serif text-3xl font-bold text-ink-900 md:text-4xl">
         {title}
       </h2>
-      <div className="mx-auto mt-6 h-px w-24 bg-paper-300" />
+      <div className="mx-auto mt-6 h-px w-24 bg-paper-300" aria-hidden="true" />
     </header>
   )
 }
