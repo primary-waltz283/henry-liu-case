@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/herry-liu-case/',
+  base: '/henry-liu-case/',
   build: {
     rollupOptions: {
       output: {
