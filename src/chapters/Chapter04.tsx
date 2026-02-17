@@ -4,6 +4,7 @@ import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
 import MissionClockScene from '../components/pixel/scenes/MissionClockScene'
+import TrainingCampScene from '../components/pixel/scenes/TrainingCampScene'
 import FortyEightHourTimeline from '../components/infographic/FortyEightHourTimeline'
 import ContradictionTable from '../components/infographic/ContradictionTable'
 import { getContradiction } from '../data/contradictions'
@@ -168,6 +169,15 @@ export default function Chapter04() {
               <Citation source="董桂森" reference="第二章" className="mt-1 block" />
             </DossierCard>
 
+          </div>
+        )}
+      </ScrollSection>
+
+      {/* Pixel Art: training-camp — 松竹山莊受訓 */}
+      <ScrollSection minHeight="150vh">
+        {(progress) => (
+          <div className="sticky top-0 flex h-screen items-center justify-center">
+            <TrainingCampScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>

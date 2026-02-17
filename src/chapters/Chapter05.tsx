@@ -3,6 +3,7 @@ import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
+import TapeRecorderScene from '../components/pixel/scenes/TapeRecorderScene'
 import { getContradiction } from '../data/contradictions'
 
 const tapeContradiction = getContradiction('tape-recording-date')!
@@ -66,6 +67,15 @@ export default function Chapter05() {
                 className="mt-6"
               />
             </div>
+          </div>
+        )}
+      </ScrollSection>
+
+      {/* Pixel Art: tape-recorder — 陳啟禮地下室錄音 */}
+      <ScrollSection minHeight="150vh">
+        {(progress) => (
+          <div className="sticky top-0 flex h-screen items-center justify-center">
+            <TapeRecorderScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>
