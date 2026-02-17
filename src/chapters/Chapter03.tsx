@@ -2,6 +2,7 @@ import ChapterTitle from '../components/narrative/ChapterTitle'
 import Citation from '../components/narrative/Citation'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
+import BambooMeetingScene from '../components/pixel/scenes/BambooMeetingScene'
 
 /**
  * 第三章：竹林裡的兄弟
@@ -71,11 +72,7 @@ export default function Chapter03() {
       <ScrollSection minHeight="150vh">
         {(progress) => (
           <div className="sticky top-0 flex h-screen items-center justify-center">
-            {/* TODO: Task 4.7 — BambooMeetingScene pixel art */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[bamboo-meeting pixel art scene]</p>
-              <p className="text-xs">progress: {progress.toFixed(2)}</p>
-            </div>
+            <BambooMeetingScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>

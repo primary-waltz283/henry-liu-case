@@ -3,6 +3,7 @@ import ScrollSection from '../components/narrative/ScrollSection'
 import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
+import TypewriterStudyScene from '../components/pixel/scenes/TypewriterStudyScene'
 import { getContradiction } from '../data/contradictions'
 
 const motiveContradiction = getContradiction('assassination-motive')!
@@ -84,11 +85,7 @@ export default function Chapter02() {
       <ScrollSection minHeight="150vh">
         {(progress) => (
           <div className="sticky top-0 flex h-screen items-center justify-center">
-            {/* TODO: Task 4.7 — TypewriterStudyScene pixel art */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[typewriter-study pixel art scene]</p>
-              <p className="text-xs">progress: {progress.toFixed(2)}</p>
-            </div>
+            <TypewriterStudyScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>

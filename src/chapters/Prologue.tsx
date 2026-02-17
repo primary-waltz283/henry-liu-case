@@ -3,6 +3,7 @@ import ScrollSection from '../components/narrative/ScrollSection'
 import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
+import GarageShotScene from '../components/pixel/scenes/GarageShotScene'
 import { getContradiction } from '../data/contradictions'
 
 const struggleContradiction = getContradiction('struggle-at-scene')!
@@ -108,11 +109,7 @@ export default function Prologue() {
       <ScrollSection minHeight="150vh">
         {(progress) => (
           <div className="sticky top-0 flex h-screen items-center justify-center">
-            {/* TODO: Task 4.7 — GarageShotScene pixel art */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[garage-shot pixel art scene]</p>
-              <p className="text-xs">progress: {progress.toFixed(2)}</p>
-            </div>
+            <GarageShotScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>

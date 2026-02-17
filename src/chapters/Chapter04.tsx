@@ -3,6 +3,7 @@ import ScrollSection from '../components/narrative/ScrollSection'
 import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
+import MissionClockScene from '../components/pixel/scenes/MissionClockScene'
 import FortyEightHourTimeline from '../components/infographic/FortyEightHourTimeline'
 import ContradictionTable from '../components/infographic/ContradictionTable'
 import { getContradiction } from '../data/contradictions'
@@ -175,11 +176,7 @@ export default function Chapter04() {
       <ScrollSection minHeight="150vh">
         {(progress) => (
           <div className="sticky top-0 flex h-screen items-center justify-center">
-            {/* TODO: Task 4.7 — MissionClockScene pixel art */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[mission-clock pixel art scene]</p>
-              <p className="text-xs">progress: {progress.toFixed(2)}</p>
-            </div>
+            <MissionClockScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>

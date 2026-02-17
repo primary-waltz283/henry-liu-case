@@ -3,6 +3,7 @@ import Citation from '../components/narrative/Citation'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
 import IntelligenceOrgChart from '../components/infographic/IntelligenceOrgChart'
+import SpyNetworkScene from '../components/pixel/scenes/SpyNetworkScene'
 
 /**
  * 第一章：龍的爪牙
@@ -98,11 +99,7 @@ export default function Chapter01() {
       <ScrollSection minHeight="150vh">
         {(progress) => (
           <div className="sticky top-0 flex h-screen items-center justify-center">
-            {/* TODO: Task 4.7 — SpyNetworkScene pixel art */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[spy-network pixel art scene]</p>
-              <p className="text-xs">progress: {progress.toFixed(2)}</p>
-            </div>
+            <SpyNetworkScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>
