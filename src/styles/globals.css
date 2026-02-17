@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+/* ── Custom newspaper/dossier theme ── */
+
+@theme {
+  /* Paper tones */
+  --color-paper-50: #faf8f4;
+  --color-paper-100: #f5f0e8;
+  --color-paper-200: #e8dfd2;
+  --color-paper-300: #d4c9b8;
+
+  /* Ink tones */
+  --color-ink-700: #3d3833;
+  --color-ink-800: #2d2a26;
+  --color-ink-900: #1a1816;
+
+  /* Accent colors */
+  --color-stamp-red: #c23b22;
+  --color-link-blue: #4a6fa5;
+  --color-neutral: #8b7d6b;
+  --color-evidence-gold: #b8943e;
+
+  /* Fonts */
+  --font-serif: 'Noto Serif TC', 'Source Han Serif TC', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+/* ── Base styles ── */
+
+body {
+  @apply bg-paper-50 text-ink-700 antialiased;
+  font-family: var(--font-serif);
+}
+
+/* ── Paper texture overlay ── */
+
+.paper-texture {
+  position: relative;
+}
+
+.paper-texture::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+/* ── Classified stamp effect ── */
+
+.stamp {
+  @apply inline-block border-2 border-stamp-red text-stamp-red font-bold uppercase;
+  transform: rotate(-5deg);
+  padding: 0.25em 0.75em;
+  letter-spacing: 0.1em;
+  opacity: 0.85;
+}
+
+/* ── Typewriter text style ── */
+
+.typewriter {
+  font-family: var(--font-mono);
+  @apply text-ink-800;
+  letter-spacing: 0.02em;
+}
+
+/* ── Evidence highlight ── */
+
+.evidence-highlight {
+  @apply border-l-4 border-evidence-gold bg-paper-100 px-4 py-3;
+}
+
+/* ── Newspaper clipping style ── */
+
+.clipping {
+  @apply border border-paper-300 bg-paper-100 p-4 shadow-sm;
+  transform: rotate(-0.5deg);
+}
