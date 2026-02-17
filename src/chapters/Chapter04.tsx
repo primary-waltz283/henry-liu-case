@@ -4,6 +4,7 @@ import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
 import FortyEightHourTimeline from '../components/infographic/FortyEightHourTimeline'
+import ContradictionTable from '../components/infographic/ContradictionTable'
 import { getContradiction } from '../data/contradictions'
 
 const meetingContradiction = getContradiction('wang-chen-first-meeting')!
@@ -195,11 +196,8 @@ export default function Chapter04() {
       {/* Infographic: contradiction-table */}
       <ScrollSection>
         {(_progress) => (
-          <div className="mx-auto max-w-5xl px-4 py-16">
-            {/* TODO: Task 4.5 — ContradictionTable */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[contradiction-table infographic]</p>
-            </div>
+          <div className="mx-auto max-w-7xl px-4">
+            <ContradictionTable />
           </div>
         )}
       </ScrollSection>
