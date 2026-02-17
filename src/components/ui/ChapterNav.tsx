@@ -11,6 +11,7 @@ const CHAPTERS = [
   { id: 'chapter-07', label: '柒', title: '解嚴之路' },
   { id: 'sources', label: '源', title: '資料來源' },
   { id: 'afterword', label: '記', title: '後記' },
+  { id: 'guestbook', label: '言', title: '留言板' },
 ]
 
 /**

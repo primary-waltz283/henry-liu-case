@@ -3,6 +3,7 @@ import ContentWarning from './components/ui/ContentWarning'
 import ChapterNav from './components/ui/ChapterNav'
 import SourcesSection from './components/ui/SourcesSection'
 import Afterword from './components/ui/Afterword'
+import Guestbook from './components/ui/Guestbook'
 import ChapterDivider from './components/narrative/ChapterDivider'
 import FadeInSection from './components/narrative/FadeInSection'
 import {
@@ -66,10 +67,22 @@ function App() {
 
         <Afterword />
 
+        <Guestbook />
+
         <footer className="py-16 text-center text-sm text-neutral">
           <p>本網站內容基於歷史文獻整理，所有引述均標註出處。</p>
           <p className="mt-2 text-xs text-neutral/60">
             &copy; {new Date().getFullYear()} 歷史紀錄計畫
+          </p>
+          <p className="mt-2 text-xs text-neutral/60">
+            <a
+              href="https://github.com/soanseng/henry-liu-case"
+              className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source Code on GitHub
+            </a>
           </p>
         </footer>
       </div>
