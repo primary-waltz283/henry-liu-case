@@ -3,6 +3,7 @@ import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
+import InvestigationFlowchart from '../components/infographic/InvestigationFlowchart'
 import TapeRecorderScene from '../components/pixel/scenes/TapeRecorderScene'
 import { getContradiction } from '../data/contradictions'
 
@@ -84,10 +85,7 @@ export default function Chapter05() {
       <ScrollSection>
         {() => (
           <div className="mx-auto max-w-4xl px-4 py-16">
-            {/* TODO: Task 4.6 — InvestigationFlowchart */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[investigation-flowchart infographic]</p>
-            </div>
+            <InvestigationFlowchart />
           </div>
         )}
       </ScrollSection>

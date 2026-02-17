@@ -68,6 +68,9 @@ export default function PixiCanvas({
       container.appendChild(canvas)
       appRef.current = app
 
+      // Scale the stage so scenes drawn at base coords fill the full canvas
+      app.stage.scale.set(scale, scale)
+
       onSetup?.(app)
 
       // Render loop
