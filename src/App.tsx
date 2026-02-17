@@ -1,5 +1,7 @@
 import CharacterMap from './components/infographic/CharacterMap'
 import ContentWarning from './components/ui/ContentWarning'
+import ChapterNav from './components/ui/ChapterNav'
+import SourcesSection from './components/ui/SourcesSection'
 import ChapterDivider from './components/narrative/ChapterDivider'
 import FadeInSection from './components/narrative/FadeInSection'
 import {
@@ -16,6 +18,7 @@ import {
 function App() {
   return (
     <ContentWarning message="本網站包含歷史暴力事件的描述，包括暗殺細節與相關影像。內容基於歷史文獻，旨在忠實呈現歷史事實。">
+      <ChapterNav />
       <div className="min-h-screen bg-paper-50 text-ink-700">
         <header className="py-16 text-center">
           <FadeInSection>
@@ -57,6 +60,8 @@ function App() {
 
         {/* Global: Character relationship map */}
         <CharacterMap />
+
+        <SourcesSection />
 
         <footer className="py-16 text-center text-sm text-neutral">
           <p>本網站內容基於歷史文獻整理，所有引述均標註出處。</p>
