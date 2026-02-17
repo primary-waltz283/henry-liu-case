@@ -1,0 +1,1553 @@
+{
+  "$schema": "characters-schema",
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-17",
+  "description": "江南案（劉宜良暗殺事件）完整人物資料庫，提取自六份結構化來源文件",
+  "sources": {
+    "fires-vol1": "01-fires-of-dragon-vol1.md — 龍之火上冊（David E. Kaplan）",
+    "fires-vol2": "01-fires-of-dragon-vol2.md — 龍之火下冊（David E. Kaplan）",
+    "dong": "02-dong-guisen.md — 江南案槍手董桂森（梁東屏）",
+    "wu": "03-wu-dun-memoir.md — 吳敦回憶錄",
+    "wang": "04-wang-hsi-ling.md — 忠與過（汪士淳）",
+    "public": "05-public-sources.md — 公開資料補充"
+  },
+  "characters": [
+    {
+      "id": "liu-yi-liang",
+      "nameCht": "劉宜良",
+      "nameEng": "Henry Y. Liu",
+      "aliases": ["江南", "丁依", "萬里", "上官于", "劉向真"],
+      "role": "受害者、作家、記者、情報局線人（代號向真/0325/0335）、FBI線人",
+      "group": "victim",
+      "birth": "1932-12-07",
+      "death": "1984-10-15",
+      "birthplace": "中國江蘇省靖江縣",
+      "description": "旅美華裔作家與記者，以筆名「江南」撰寫未授權《蔣經國傳》。曾為中華民國情報局線人，同時與FBI及中共均有接觸，被稱為「三面諜」。1984年10月15日在加州Daly City自宅車庫遭暗殺。",
+      "relationships": [
+        {"target": "cui-rong-zhi", "type": "spouse", "description": "妻子"},
+        {"target": "wang-hsi-ling", "type": "adversary", "description": "情報局局長，下令制裁劉宜良"},
+        {"target": "xia-xiao-hua", "type": "mentor", "description": "恩師，正聲電台創辦人，後為情報局中間人"},
+        {"target": "dave-lessure", "type": "handler", "description": "FBI聯絡人"},
+        {"target": "liu-yi-min", "type": "sibling", "description": "弟弟，留在中國大陸"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["序", "1", "2", "3", "4", "5", "6", "7"]
+    },
+    {
+      "id": "chen-qi-li",
+      "nameCht": "陳啟禮",
+      "nameEng": "Chen Chi-li",
+      "aliases": ["旱鴨子", "老鴨", "鴨霸子", "鄭泰成（情報局化名）", "董事長"],
+      "role": "竹聯幫幫主、暗殺行動統籌者、情報局情報員（編號730063）",
+      "group": "bamboo-union",
+      "birth": "1943",
+      "death": "2007-10-04",
+      "birthplace": "中國江南地區",
+      "deathplace": "香港",
+      "deathCause": "胰腺癌",
+      "description": "竹聯幫幫主，1984年被汪希苓吸收為情報局情報員。受命統籌暗殺劉宜良行動，事後錄製「保命錄音帶」成為案件曝光的關鍵證據。被判無期徒刑，1991年獲減刑出獄，1996年流亡柬埔寨，2007年病逝香港。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "handler", "description": "被汪希苓吸收為情報員"},
+        {"target": "wu-dun", "type": "sworn-brother", "description": "義兄弟，竹聯幫總護法"},
+        {"target": "dong-gui-sen", "type": "subordinate", "description": "忠堂堂主"},
+        {"target": "chen-hu-men", "type": "liaison", "description": "情報局聯絡人"},
+        {"target": "chiang-hsiao-yung", "type": "associate", "description": "拜把兄弟"},
+        {"target": "chen-yi-fan", "type": "spouse", "description": "妻子"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["3", "4", "5", "6"]
+    },
+    {
+      "id": "wu-dun",
+      "nameCht": "吳敦",
+      "nameEng": null,
+      "aliases": ["鬼見愁", "笑面虎"],
+      "role": "竹聯幫總護法、暗殺現場開第一槍者",
+      "group": "bamboo-union",
+      "birth": "1949",
+      "death": "2026-02-03",
+      "deathCause": "睡夢中安詳辭世",
+      "description": "竹聯幫總護法，陳啟禮的得力助手。1984年10月15日在劉宜良車庫中開出第一槍（擊中頭部）。被判無期徒刑，1991年獲減刑出獄後轉入影視業。2026年2月辭世，享壽77歲，為江南案最後離世的直接執行者。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "sworn-brother", "description": "一生追隨的大哥"},
+        {"target": "dong-gui-sen", "type": "partner", "description": "暗殺行動搭檔"},
+        {"target": "xu-pei-rong", "type": "ex-spouse", "description": "前妻"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["序", "3", "4", "5", "6"]
+    },
+    {
+      "id": "dong-gui-sen",
+      "nameCht": "董桂森",
+      "nameEng": "Tung Kuei-sen",
+      "aliases": ["小董"],
+      "role": "竹聯幫忠堂堂主、暗殺補槍者",
+      "group": "bamboo-union",
+      "birth": "1952",
+      "death": "1991-04-03",
+      "birthplace": "台中市北屯區水湳「陸光九村」，籍貫四川",
+      "deathplace": "美國賓州Lewisburg聯邦監獄",
+      "deathCause": "獄中被誤刺（勸阻鬥毆時被尖刀刺中心臟）",
+      "description": "竹聯幫忠堂堂主，軍人世家出身，服役十年（含兩度駐金門）上士退伍。1984年10月被臨時召入暗殺行動，在車庫中補射劉宜良腹部兩槍。案發後逃亡菲律賓、泰國、巴西，1985年在巴西被捕引渡至美國。被判販毒罪20年及一級謀殺罪27年。1991年在聯邦監獄中因勸阻鬥毆被誤刺身亡。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "subordinate", "description": "被陳啟禮提拔為忠堂堂主"},
+        {"target": "wu-dun", "type": "partner", "description": "暗殺行動搭檔"},
+        {"target": "zhang-an-le", "type": "associate", "description": "案發前住在張安樂家"},
+        {"target": "dong-gui-jun", "type": "sibling", "description": "弟弟"},
+        {"target": "wan-yu-fang", "type": "parent", "description": "母親"},
+        {"target": "xiao-yong-zhi", "type": "spouse", "description": "妻子（丹丹）"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["序", "3", "4", "6"]
+    },
+    {
+      "id": "wang-hsi-ling",
+      "nameCht": "汪希苓",
+      "nameEng": "Wang Hsi-ling",
+      "aliases": ["小汪"],
+      "role": "國防部情報局局長（中將）、暗殺計畫主謀",
+      "group": "intelligence",
+      "birth": "1929",
+      "death": null,
+      "birthplace": "浙江杭州",
+      "description": "海軍中將，曾任蔣介石海軍侍從武官、國安局副局長、駐美情報行動處主任。1983年出任國防部情報局長。訪談中直接承認「是我下令制裁他的」。1985年被判無期徒刑，1991年出獄。蔣經國曾許諾三年後讓他接任安全局長。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "superior", "description": "蔣經國四次破格任用"},
+        {"target": "chen-qi-li", "type": "recruited", "description": "吸收為情報員"},
+        {"target": "hu-yi-min", "type": "subordinate", "description": "情報局副局長"},
+        {"target": "chen-hu-men", "type": "subordinate", "description": "情報局第三處副處長"},
+        {"target": "wang-jing-xu", "type": "rival", "description": "安全局長，「大汪」vs「小汪」之爭"},
+        {"target": "liu-yi-liang", "type": "adversary", "description": "下令制裁的對象"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["1", "4", "5", "6"]
+    },
+    {
+      "id": "chen-hu-men",
+      "nameCht": "陳虎門",
+      "nameEng": null,
+      "aliases": ["虎哥", "陳奕樵（後改名）"],
+      "role": "情報局第三處副處長、暗殺行動聯絡人與訓練官",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "情報局第三處副處長，負責陳啟禮的陽明山受訓及暗殺任務的聯絡協調。判刑兩年六個月，出獄後重返情報局並晉升少將。2020年首度透露原計畫是找美國當地黑人或西班牙裔人下手。曾說：「江南案審判時，誰也沒有講實話！」",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "superior", "description": "直屬上司"},
+        {"target": "chen-qi-li", "type": "liaison", "description": "暗殺行動聯絡人"},
+        {"target": "wu-dun", "type": "liaison", "description": "返台後接應者"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["4", "5", "6"]
+    },
+    {
+      "id": "hu-yi-min",
+      "nameCht": "胡儀敏",
+      "nameEng": null,
+      "aliases": [],
+      "role": "情報局副局長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "情報局副局長（少將），參與暗殺計畫。汪希苓繞開不支持計畫的副局長荊自立，改用死忠的胡儀敏。判刑兩年六個月，1987年出獄後進入商界。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "superior", "description": "汪希苓下屬"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["4", "5", "6"]
+    },
+    {
+      "id": "chiang-ching-kuo",
+      "nameCht": "蔣經國",
+      "nameEng": "Chiang Ching-kuo",
+      "aliases": [],
+      "role": "中華民國總統",
+      "group": "chiang-family",
+      "birth": "1910",
+      "death": "1988-01-13",
+      "birthplace": "浙江奉化",
+      "description": "中華民國總統，情治系統的建構者。江南案後宣布蔣家人不再接班，下令解嚴及情報機構改組。對江南案的定性為「蠢事」。各方對蔣經國是否事前知情說法不一，目前無直接證據。1988年逝世，享年78歲。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "trust", "description": "四次破格任用"},
+        {"target": "chiang-hsiao-wu", "type": "parent", "description": "次子"},
+        {"target": "chiang-hsiao-yung", "type": "parent", "description": "三子"},
+        {"target": "chiang-wei-kuo", "type": "sibling", "description": "弟弟（養子）"},
+        {"target": "chiang-kai-shek", "type": "parent", "description": "父親"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["1", "2", "4", "5", "6", "7"]
+    },
+    {
+      "id": "chiang-hsiao-wu",
+      "nameCht": "蔣孝武",
+      "nameEng": "Chiang Hsiao-wu",
+      "aliases": [],
+      "role": "蔣經國次子，被指控為暗殺幕後主使",
+      "group": "chiang-family",
+      "birth": "1945-04-25",
+      "death": "1991-07-01",
+      "deathCause": "心臟衰竭（另說糖尿病併發症）",
+      "description": "蔣經國次子，案發時39歲。張安樂1985年公開指控其為幕後主使，但張安樂後來承認此為「圍魏救趙」策略。案後被外放至新加坡再轉日本。1991年突然去世，享年46歲。2010年張安樂正式還其清白。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "parent", "description": "父親"},
+        {"target": "chen-qi-li", "type": "associate", "description": "竹聯幫多次見面（蔣否認）"},
+        {"target": "zhang-an-le", "type": "adversary", "description": "被張安樂公開指控"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["5", "6", "7"]
+    },
+    {
+      "id": "chiang-hsiao-yung",
+      "nameCht": "蔣孝勇",
+      "nameEng": "Chiang Hsiao-yung",
+      "aliases": ["三太子"],
+      "role": "蔣經國三子、中興電工董事長",
+      "group": "chiang-family",
+      "birth": "1948",
+      "death": "1996-12-22",
+      "description": "蔣經國三子，案發時35歲。與陳啟禮為拜把兄弟。曾叮囑陳啟禮形勢突變時竹聯幫要保護蔣家。吳敦回憶錄透露私下聽到涉案的蔣家人名字是蔣孝勇而非蔣孝武。曾直指汪敬煦利用一清專案除去競爭者。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "parent", "description": "父親"},
+        {"target": "chen-qi-li", "type": "sworn-brother", "description": "拜把兄弟"},
+        {"target": "wang-jing-xu", "type": "adversary", "description": "指控汪敬煦藉掃黑清除異己"}
+      ],
+      "sources": ["fires-vol2", "wu", "wang"],
+      "chapters": ["3", "5", "6"]
+    },
+    {
+      "id": "cui-rong-zhi",
+      "nameCht": "崔蓉芝",
+      "nameEng": "Helen Liu",
+      "aliases": ["海倫"],
+      "role": "劉宜良妻子",
+      "group": "family",
+      "birth": "1943",
+      "death": null,
+      "birthplace": "四川",
+      "description": "劉宜良之妻，1943年冬生於四川，政治大學中國文學系畢業，父為國民黨空軍上校。案發後指控蔣經國為幕後主使，在國會聽證會作證。1986年進入紐約拘留中心見董桂森並接受道歉。1990年與中華民國政府和解獲145萬美元賠償。1991年將劉宜良骨灰葬於中國大陸。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "spouse", "description": "丈夫"},
+        {"target": "dong-gui-sen", "type": "encounter", "description": "1986年進入拘留中心接受道歉"},
+        {"target": "lu-keng", "type": "companion", "description": "黃昏之戀對象"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["序", "2", "5", "6", "7"]
+    },
+    {
+      "id": "zhang-an-le",
+      "nameCht": "張安樂",
+      "nameEng": null,
+      "aliases": ["白狼"],
+      "role": "竹聯幫在美高層，將保命錄音帶交給FBI",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫要角，案發時在美國洛杉磯。陳啟禮出發前將保命錄音帶交其保管。1985年3月1日公開指控蔣孝武為主謀，後承認為「圍魏救趙」策略。因販毒案被判15年，服刑十年。2013年承認指控蔣孝武純屬推測。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "sworn-brother", "description": "竹聯兄弟"},
+        {"target": "dong-gui-sen", "type": "associate", "description": "董案發前住其家中"},
+        {"target": "xiang-ba-jing", "type": "associate", "description": "共同策劃圍魏救趙策略"},
+        {"target": "chiang-hsiao-wu", "type": "accusation", "description": "公開指控後又撤回"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang", "public"],
+      "chapters": ["3", "5", "6"]
+    },
+    {
+      "id": "shuai-yue-feng",
+      "nameCht": "帥嶽峰",
+      "nameEng": null,
+      "aliases": ["帥鍊業", "帥嶽峯"],
+      "role": "竹聯幫成員、電影製片人，受訓後臨陣退出",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫巡查/大大影業製片人。與陳啟禮同在陽明山受訓（化名「謝先生」），原定參與暗殺行動，但以「女兒出走（私奔）」為由臨陣退出返台。曾向汪希苓引介陳啟禮。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "associate", "description": "同受陽明山訓練"},
+        {"target": "wang-hsi-ling", "type": "introduced", "description": "1984年6月首次引介陳啟禮"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "wang-jing-xu",
+      "nameCht": "汪敬煦",
+      "nameEng": null,
+      "aliases": ["大汪"],
+      "role": "國家安全局局長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "國家安全局局長，與汪希苓同為浙江杭州人。發動一清專案逮捕陳啟禮，間接導致江南案曝光。汪希苓稱已向其報告暗殺結果，汪敬煦堅決否認。酒後曾向美國官員承認知情（後書面否認）。被指利用一清專案清除汪希苓這個政治競爭對手。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "rival", "description": "情報權力競爭對手"},
+        {"target": "chiang-ching-kuo", "type": "subordinate", "description": "國安局長"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu", "wang"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "pi-jian-xin",
+      "nameCht": "皮建鑫",
+      "nameEng": null,
+      "aliases": ["小皮"],
+      "role": "竹聯幫成員、暗殺行動接應司機",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫成員，也是電影製作人。暗殺當日擔任接應司機，負責攜帶偽裝物品。1984年11月22日在蒙特利公園被FBI抓獲，為首位在美落網者，供出殺手真實身份。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "subordinate", "description": "接受陳啟禮指揮"},
+        {"target": "dong-gui-sen", "type": "associate", "description": "從洛杉磯送董桂森到舊金山"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu"],
+      "chapters": ["4", "5"]
+    },
+    {
+      "id": "yu-da-jun",
+      "nameCht": "俞大鈞",
+      "nameEng": null,
+      "aliases": ["小俞", "前大鈞"],
+      "role": "陳啟禮司機、暗殺行動接應人員",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "擔任暗殺行動中陳啟禮的司機及第二接應車駕駛。行動後面色慘白癱軟在駕駛座。被捕後因證據不足被釋放。1986年出庭作證。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "subordinate", "description": "陳啟禮的司機"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "liu-mao-chuan",
+      "nameCht": "柳茂川",
+      "nameEng": null,
+      "aliases": ["老鼠", "柳洗川"],
+      "role": "竹聯幫洛杉磯老資格成員",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫舊金山/洛杉磯成員。最初被選為暗殺執行者，但認出劉宜良是「江南」後退出。曾負責張羅子彈但型號不對。陳啟禮離美前向其借2,000美元買機票。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "associate", "description": "竹聯幫成員"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "chen-zhi-yi",
+      "nameCht": "陳志一",
+      "nameEng": null,
+      "aliases": ["黃鳥"],
+      "role": "竹聯幫休斯頓頭目、保管錄音帶",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫成員，在德州經營蔬菜種植營銷。協助陳啟禮等人從休斯頓轉達拉斯返台。保管陳啟禮的保命錄音帶，資助董桂森逃亡費用。後被聯邦以販毒案起訴，判20年。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "associate", "description": "竹聯幫兄弟"},
+        {"target": "dong-gui-sen", "type": "associate", "description": "資助逃亡費用"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "xiang-ba-jing",
+      "nameCht": "向拔京",
+      "nameEng": null,
+      "aliases": [],
+      "role": "血盟幫大老、攜保命錄音帶飛往美國",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "血盟幫（非竹聯幫）大老。提出「圍魏救趙」策略——扯蔣孝武下水以保護陳啟禮。因販毒案被判10年。",
+      "relationships": [
+        {"target": "zhang-an-le", "type": "associate", "description": "共同策劃圍魏救趙策略"},
+        {"target": "chen-qi-li", "type": "associate", "description": "竹聯幫兄弟"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "niu-ling-feng",
+      "nameCht": "鈕嶺峰",
+      "nameEng": null,
+      "aliases": ["師嶺峰"],
+      "role": "竹聯幫巡查、大大影業製片、牽線人",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫巡查/大大影業製片。負責安排白景瑞家宴，促成汪希苓與陳啟禮首次見面。隨陳啟禮赴美，但以「女兒出事」為由返台，各方認為是臨陣怯場。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "associate", "description": "汪希苓舊識"},
+        {"target": "chen-qi-li", "type": "associate", "description": "竹聯幫成員"}
+      ],
+      "sources": ["fires-vol2", "dong"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "xia-xiao-hua",
+      "nameCht": "夏曉華",
+      "nameEng": null,
+      "aliases": [],
+      "role": "正聲廣播公司創辦人、劉宜良恩師、情報局中間人",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "正聲廣播公司創辦人，抗戰時期為軍統局工作。劉宜良的恩師與赴美擔保人。1983年受情報局副局長荊自立委託赴美勸說劉宜良修改《蔣經國傳》並接受情報局聘用。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "mentor", "description": "恩師"},
+        {"target": "wang-hsi-ling", "type": "intermediary", "description": "情報局與劉宜良之間的中間人"},
+        {"target": "lin-yu-min", "type": "friend", "description": "相識四十年"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "wang"],
+      "chapters": ["2", "4"]
+    },
+    {
+      "id": "jing-zi-li",
+      "nameCht": "荊自立",
+      "nameEng": null,
+      "aliases": [],
+      "role": "情報局副局長（被排除在暗殺計畫外）",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "情報局副局長。主張劉宜良有情報價值，不支持暗殺。被汪希苓繞開，改用胡儀敏。曾親自攜劉宜良來信到夏曉華家安排赴美勸說事宜。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "subordinate", "description": "被汪希苓排除在暗殺計畫外"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "lin-yu-min",
+      "nameCht": "林郁民",
+      "nameEng": null,
+      "aliases": ["林邨民"],
+      "role": "情報局退休特工，在舊金山監視劉宜良",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "國防部情報局退休特工。持夏曉華引薦信赴舊金山監視劉宜良。其寫給夏曉華的私信（稱劉宜良掌握汪希苓在華府的醜聞資料）被汪希苓截獲，加深殺意。此信後成為法庭認定汪希苓有「私怨」殺人動機的核心依據。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "subordinate", "description": "情報局退休特工"},
+        {"target": "xia-xiao-hua", "type": "friend", "description": "與夏曉華相識四十年"},
+        {"target": "liu-yi-liang", "type": "surveillance", "description": "在舊金山監視劉宜良"}
+      ],
+      "sources": ["fires-vol2", "wang"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "bai-jing-rui",
+      "nameCht": "白景瑞",
+      "nameEng": null,
+      "aliases": [],
+      "role": "電影導演，牽線汪希苓與陳啟禮",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "知名電影導演，汪希苓30年舊交（在意大利相識）。1984年7月28日在其家宴中促成汪希苓與陳啟禮首次（或第三次）見面，為暗殺陰謀的關鍵牽線人。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "friend", "description": "30年舊交"},
+        {"target": "chen-qi-li", "type": "introduced", "description": "牽線引介"}
+      ],
+      "sources": ["fires-vol2", "dong", "wang"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "chiang-kai-shek",
+      "nameCht": "蔣介石",
+      "nameEng": "Chiang Kai-shek",
+      "aliases": [],
+      "role": "中華民國前總統",
+      "group": "chiang-family",
+      "birth": "1887",
+      "death": "1975",
+      "description": "中華民國前總統，蔣經國之父。建立台灣情治系統的基礎，委任蔣經國全面負責情報機構。1975年去世。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "parent", "description": "兒子"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "chiang-wei-kuo",
+      "nameCht": "蔣緯國",
+      "nameEng": "Chiang Wei-kuo",
+      "aliases": [],
+      "role": "蔣介石次子（養子），國防部戰爭學院院長",
+      "group": "chiang-family",
+      "birth": "1916",
+      "death": "1997",
+      "description": "蔣介石次子（養子）。經蔣孝武介紹幾乎每週與陳啟禮見面，被視為竹聯幫的「名譽掌門人」。據報在謀殺計畫討論時在場。曾回信感謝劉宜良寄來溪口蔣氏故居照片。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "sibling", "description": "兄弟"},
+        {"target": "chen-qi-li", "type": "associate", "description": "幾乎每週見面"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2"],
+      "chapters": ["1", "3"]
+    },
+    {
+      "id": "dave-lessure",
+      "nameCht": "萊蘇爾",
+      "nameEng": "Dave Lessure",
+      "aliases": ["戴夫·萊蘇爾"],
+      "role": "FBI舊金山探員，劉宜良的FBI聯絡人",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "FBI舊金山探員，曾在澳門做摩門教傳教士，精通廣東話。接手成為劉宜良的FBI聯絡人，妻子成為崔蓉芝店裡的常客。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "handler", "description": "FBI聯絡人"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["序", "2"]
+    },
+    {
+      "id": "john-warren",
+      "nameCht": "約翰·華倫",
+      "nameEng": "John Warren",
+      "aliases": [],
+      "role": "Daly City刑警，案發第一位調查員",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "Daly City刑警，31歲。案發後第一位到達現場的調查人員，判斷為預謀行動。從崔蓉芝口中得知劉宜良與FBI的關係及《蔣經國傳》的背景。",
+      "relationships": [
+        {"target": "cui-rong-zhi", "type": "investigation", "description": "從崔蓉芝處獲得關鍵線索"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2"],
+      "chapters": ["序", "5"]
+    },
+    {
+      "id": "tony-lau",
+      "nameCht": "劉善謙",
+      "nameEng": "Tony Lau",
+      "aliases": [],
+      "role": "FBI反間諜特工，破案關鍵人物",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "FBI反間諜特工，39歲。出生湖北，香港長大，柏克萊大學英文系畢業，會英語和三種中國方言。深夜接到線報後主導調查，鎖定竹聯幫。兩度赴台審問嫌犯。",
+      "relationships": [
+        {"target": "steve-keith", "type": "partner", "description": "FBI搭檔"}
+      ],
+      "sources": ["fires-vol2", "dong"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "steve-keith",
+      "nameCht": "基斯",
+      "nameEng": "Steve Keith",
+      "aliases": [],
+      "role": "FBI特工，劉善謙搭檔",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "FBI特工，劉善謙的搭檔。參與錄音帶播放、調查及赴台審問。",
+      "relationships": [
+        {"target": "tony-lau", "type": "partner", "description": "FBI搭檔"}
+      ],
+      "sources": ["fires-vol2", "dong"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "reyes",
+      "nameCht": "雷斯",
+      "nameEng": "Reyes",
+      "aliases": [],
+      "role": "Daly City警察局偵查隊長",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "Daly City警察局偵查隊長，監督劉宜良案調查。堅持「這是一起命案」，敢於與國務院對抗。兩度赴台。後任大理市警察局長。",
+      "relationships": [
+        {"target": "tony-lau", "type": "colleague", "description": "與FBI合作調查"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "ruan-da-fang",
+      "nameCht": "阮大方",
+      "nameEng": null,
+      "aliases": [],
+      "role": "《加州論壇報》副社長，首位向FBI提供竹聯幫線索者",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "《加州論壇報》（另稱《洛杉磯論壇報》）副社長，父為國民黨要員阮毅成。率先判斷暗殺為陳啟禮等人所為，凌晨與FBI會面提供關鍵線索。",
+      "relationships": [
+        {"target": "tony-lau", "type": "informant", "description": "向FBI提供線索"},
+        {"target": "li-nai-yi", "type": "associate", "description": "一同向FBI報告"}
+      ],
+      "sources": ["fires-vol2", "dong"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "li-nai-yi",
+      "nameCht": "李乃義",
+      "nameEng": null,
+      "aliases": [],
+      "role": "劉宜良好友、案發前夜最後訪客",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "劉宜良好友，案發前夜（10月14日）最後一位訪客，與劉聊天至深夜談曇花盛開。案發後聯繫FBI並提供線索。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "friend", "description": "好友"},
+        {"target": "ruan-da-fang", "type": "associate", "description": "一同向FBI報告"}
+      ],
+      "sources": ["fires-vol2", "dong"],
+      "chapters": ["序", "5"]
+    },
+    {
+      "id": "yang-wen-yu",
+      "nameCht": "楊文瑜",
+      "nameEng": null,
+      "aliases": ["楊在時"],
+      "role": "媒體記者，首先對竹聯幫涉案起疑",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "媒體記者，住在張安樂家幫辦《風雲雜誌》。案發後注意到董桂森離奇消失又回來，聯想到江南命案，告知阮大方，啟動了通知FBI的關鍵鏈條。",
+      "relationships": [
+        {"target": "zhang-an-le", "type": "associate", "description": "住在張安樂家"},
+        {"target": "ruan-da-fang", "type": "informant", "description": "告知阮大方嫌疑"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "wang-sheng",
+      "nameCht": "王昇",
+      "nameEng": null,
+      "aliases": [],
+      "role": "總政治作戰部主任，蔣經國親信",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "總政治作戰部主任，65歲時被認為台灣三大強權人物之一。1983年被蔣經國免職貶至巴拉圭任大使。曾主導松山機場克里斯多福訪台時的暴力示威。曾回信警告劉宜良「注意三件事」。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "subordinate", "description": "蔣經國親信，後失寵"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2"],
+      "chapters": ["1", "2"]
+    },
+    {
+      "id": "wu-guo-zhen",
+      "nameCht": "吳國楨",
+      "nameEng": "K.C. Wu",
+      "aliases": [],
+      "role": "前台灣省主席，批蔣先驅",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "普林斯頓政治學博士，曾任台灣省主席兼保安司令。1953年離台流亡美國，公開批評蔣經國「完全背離民主政府基本準則」。1984年劉宜良發表《吳國楨八十懷往》，揭露蔣經國曾試圖暗殺吳。劉宜良計劃撰寫《吳國楨傳》被認為是暗殺動機之一。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "interviewee", "description": "劉宜良長期採訪對象"},
+        {"target": "chiang-ching-kuo", "type": "adversary", "description": "公開批評蔣經國"}
+      ],
+      "sources": ["fires-vol1", "fires-vol2", "dong"],
+      "chapters": ["1", "2", "4"]
+    },
+    {
+      "id": "solarz",
+      "nameCht": "索拉茲",
+      "nameEng": "Stephen Solarz",
+      "aliases": [],
+      "role": "美國眾議員（紐約民主黨），主持劉案國會聽證會",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "美國眾議員，紐約民主黨。先後主持1981年陳文成案和1985年劉宜良案的國會聽證會。通過「索拉茲修正案」禁止對威脅美國人安全的國家出售武器。",
+      "relationships": [],
+      "sources": ["fires-vol2", "public"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "chen-wen-cheng",
+      "nameCht": "陳文成",
+      "nameEng": "Chen Wen-cheng",
+      "aliases": [],
+      "role": "卡內基·梅隆大學教授，1981年在台被害",
+      "group": "victim",
+      "birth": "1950",
+      "death": "1981-07-03",
+      "description": "卡內基·梅隆大學統計學副教授，31歲。1981年返台探親遭警備總部約談後被發現死於台大校園。陳文成事件被視為江南案的前奏，劉宜良因此案開始更加警覺。",
+      "relationships": [],
+      "sources": ["fires-vol2", "public"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "lin-yi-hsiung",
+      "nameCht": "林義雄",
+      "nameEng": "Lin Yi-hsiung",
+      "aliases": [],
+      "role": "台灣省議員，林宅血案受害者家屬",
+      "group": "victim",
+      "birth": null,
+      "death": null,
+      "description": "台灣省議員，美麗島事件被告。1980年2月28日其母親與雙胞胎女兒遭殺害（林宅血案），另一女兒重傷。蔣孝武被認為與案件有關連。",
+      "relationships": [],
+      "sources": ["fires-vol2"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "fu-zheng",
+      "nameCht": "傅正",
+      "nameEng": null,
+      "aliases": [],
+      "role": "政戰學校分隊長、後成著名異議分子",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "劉宜良在政戰學校時的分隊長。後成為《自由中國》雜誌主編，因協助雷震建立反對黨被判六年「再教育」。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "mentor", "description": "政戰學校分隊長"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "lei-zhen",
+      "nameCht": "雷震",
+      "nameEng": null,
+      "aliases": [],
+      "role": "《自由中國》雜誌發行人",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "《自由中國》雜誌發行人，1960年因宣布建立反對黨被以煽動叛亂罪判10年。",
+      "relationships": [],
+      "sources": ["fires-vol1"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "peng-ming-min",
+      "nameCht": "彭明敏",
+      "nameEng": "Peng Ming-min",
+      "aliases": [],
+      "role": "台大政治系主任，台獨先驅",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "台灣大學政治系主任。1964年因試圖發表「台灣人民自我宣言」被以煽動罪入獄。被國際特赦組織定為台灣首批「良心犯」。",
+      "relationships": [],
+      "sources": ["fires-vol1"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "mei-ke-wang",
+      "nameCht": "梅可望",
+      "nameEng": null,
+      "aliases": [],
+      "role": "駐美情報行動處主任（1974-1976），密西根大學博士",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "55歲，密西根大學博士，前警察學院院長。1974年被任命為駐美情報行動處主任，組建地下網絡。因魚雷案牽連離職，轉任肯特州立大學教授。汪希苓後接替其職位。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "predecessor", "description": "汪希苓接替其職位"}
+      ],
+      "sources": ["fires-vol1", "wang"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "song-chu-yu",
+      "nameCht": "宋楚瑜",
+      "nameEng": "James Soong",
+      "aliases": [],
+      "role": "國民黨文工會主任、新聞局長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "歷任國民黨黨員、中國研究中心研究員、新聞局長、國民黨文工會主任。在1981年國會聽證會上否認一切監視行為。案發後在「文化戰爭」會議上支持擴大新聞檢查。",
+      "relationships": [],
+      "sources": ["fires-vol1", "fires-vol2"],
+      "chapters": ["1", "5"]
+    },
+    {
+      "id": "fu-jian-zhong",
+      "nameCht": "傅建中",
+      "nameEng": null,
+      "aliases": [],
+      "role": "中央通訊社駐華府記者，汪希苓傳話人",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "中央通訊社駐華府記者。代為轉達汪希苓想見劉宜良的訊息，促成1977年午餐會面。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "messenger", "description": "汪希苓的傳話人"},
+        {"target": "liu-yi-liang", "type": "intermediary", "description": "介紹劉宜良與汪希苓會面"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "fu-chao-shu",
+      "nameCht": "傅朝樞",
+      "nameEng": null,
+      "aliases": [],
+      "role": "《中報》發行人",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "《中報》發行人。曾與劉宜良簽約連載《蔣經國傳》（1.5萬美元），但劉因擔心傅會屈服國民黨壓力而撤約。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "business", "description": "《蔣經國傳》連載簽約後撤約"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "huang-yun-ji",
+      "nameCht": "黃運基",
+      "nameEng": null,
+      "aliases": [],
+      "role": "《舊金山日報》編輯兼發行人",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "《舊金山日報》編輯兼發行人。1983年9月起刊登劉宜良的《江南小語》每日專欄。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "editor", "description": "刊登《江南小語》專欄"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "cui-hui",
+      "nameCht": "崔暉",
+      "nameEng": null,
+      "aliases": ["崔陣", "崔異", "崔曄"],
+      "role": "中國民航職員，策反爭議的核心人物",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "中國民航瀋陽局票務副處長（或中共派駐美國情報人員）。劉宜良安排其「投誠」，但情報局研判為騙局。此事件令汪希苓認定劉宜良已從線人變成叛徒，是暗殺決定的核心轉折點。陳虎門認為此事件是制裁的最核心原因。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "contact", "description": "劉宜良企圖策反的對象"}
+      ],
+      "sources": ["fires-vol2", "dong", "wang"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "chen-shou-shan",
+      "nameCht": "陳守山",
+      "nameEng": null,
+      "aliases": [],
+      "role": "警備總司令",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "警備總司令。案發後主持「文化戰爭」秘密會議。蔣經國直到一清專案後才由陳守山口中得知江南案，蔣第一句話是「這個案子是怎麼回事啊？」",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "subordinate", "description": "向蔣經國報告江南案"}
+      ],
+      "sources": ["fires-vol2", "wang"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "song-chang-zhi",
+      "nameCht": "宋長志",
+      "nameEng": null,
+      "aliases": [],
+      "role": "國防部長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "國防部長。1984年初主持情報工作座談，明列「善於運用幫派分子從事情報工作」為議題。案發後稱汪希苓「上了賊船」引起軒然大波。為五人小組成員之一。",
+      "relationships": [],
+      "sources": ["fires-vol2", "dong"],
+      "chapters": ["4", "6"]
+    },
+    {
+      "id": "yan-shi-xi",
+      "nameCht": "顏世錫",
+      "nameEng": null,
+      "aliases": [],
+      "role": "台北市警局局長（時任）/警政署長",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "案發時台北市警局局長。確認一清專案「奉令一定要先把陳啟禮逮捕之後，再正式發動其他逮捕行動」，暗示陳啟禮被列為第一批逮捕對象並非巧合。",
+      "relationships": [],
+      "sources": ["dong", "wang"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "hou-you-yi",
+      "nameCht": "侯友宜",
+      "nameEng": null,
+      "aliases": [],
+      "role": "時任刑事局偵查員",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "案發時任刑事局偵查員。確認「陳啟禮抓到，為行動發起的時間」。",
+      "relationships": [],
+      "sources": ["dong", "wang"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "liu-yi-min",
+      "nameCht": "劉宜民",
+      "nameEng": null,
+      "aliases": [],
+      "role": "劉宜良弟弟",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "劉宜良弟弟，留在中國大陸。因「海外關係」被下放農村。在靖江工廠工作。劉宜良多次訪中時與弟弟團聚。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "sibling", "description": "哥哥"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "chen-yi-fan",
+      "nameCht": "陳怡帆",
+      "nameEng": null,
+      "aliases": ["大嫂"],
+      "role": "陳啟禮妻子",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "陳啟禮妻子。隨陳啟禮赴美後先行回台。一清專案時警方從其皮包中搜出白朗寧手槍和陳啟禮的筆記本。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "spouse", "description": "丈夫"}
+      ],
+      "sources": ["fires-vol2", "dong", "wu"],
+      "chapters": ["4", "5"]
+    },
+    {
+      "id": "dong-gui-jun",
+      "nameCht": "董桂均",
+      "nameEng": null,
+      "aliases": ["阿弟"],
+      "role": "董桂森弟弟",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "董桂森弟弟，居住在洛杉磯。董桂森遇刺後從洛杉磯趕赴路易斯堡監獄。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "sibling", "description": "哥哥"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "wan-yu-fang",
+      "nameCht": "萬玉芳",
+      "nameEng": null,
+      "aliases": [],
+      "role": "董桂森母親",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "董桂森母親。兒子遇刺後從台灣趕赴路易斯堡，堅信兒子被國民黨政府謀害滅口。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "parent", "description": "兒子"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "xiao-yong-zhi",
+      "nameCht": "蕭永芝",
+      "nameEng": null,
+      "aliases": ["丹丹"],
+      "role": "董桂森妻子",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "董桂森妻子。董桂森遇刺後從台灣趕赴路易斯堡。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "spouse", "description": "丈夫"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "xu-pei-rong",
+      "nameCht": "許佩容",
+      "nameEng": null,
+      "aliases": [],
+      "role": "吳敦前妻，電視明星",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "電視明星，1991年與吳敦結婚。吳敦回憶錄跋文由其以「我的前夫吳敦」為題撰寫。",
+      "relationships": [
+        {"target": "wu-dun", "type": "ex-spouse", "description": "前夫"}
+      ],
+      "sources": ["wu"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "huang-qi",
+      "nameCht": "黃啟",
+      "nameEng": "Steven Wong",
+      "aliases": [],
+      "role": "紐約市警局線民/FBI線民，竹聯幫販毒案核心臥底",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "協勝堂成員，紐約出租車司機兼警察線人。設計竹聯幫販毒案的核心臥底人物。身上貼有發送器，錄下三百捲錄音帶。1996年承認張安樂案是「誘人入罪」。通過陳志一掌握董桂森在巴西的行蹤，導致董桂森被捕。",
+      "relationships": [
+        {"target": "zhang-an-le", "type": "surveillance", "description": "臥底監視對象"},
+        {"target": "chen-zhi-yi", "type": "manipulation", "description": "利用其尋找董桂森"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "cai-han-mao",
+      "nameCht": "蔡漢茂",
+      "nameEng": null,
+      "aliases": [],
+      "role": "馬來西亞籍囚犯，間接導致董桂森遇刺",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "馬來西亞籍囚犯。在獄中經常做莊詐騙黑人囚犯。從加州Lompoc監獄轉至賓州Lewisburg監獄後與董桂森同房。1991年再度設局詐騙黑人，黑人帶刀報復時誤刺正在勸阻的董桂森。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "cellmate", "description": "同牢房囚犯，間接導致其死亡"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "guo-guan-ying",
+      "nameCht": "郭冠英",
+      "nameEng": null,
+      "aliases": [],
+      "role": "前新聞局專員",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "前新聞局專員。1993年訪談汪希苓，獲其曖昧承認暗殺非個人意思。張安樂通過郭冠英接上美國主流媒體。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "interviewer", "description": "1993年訪談汪希苓"},
+        {"target": "zhang-an-le", "type": "media-contact", "description": "接上美國主流媒體"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "zhuo-bi-ru",
+      "nameCht": "卓碧如",
+      "nameEng": null,
+      "aliases": ["卓大姊"],
+      "role": "高雄七賢幫大嫂，安排董桂森出境",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "高雄七賢幫大嫂。花40萬台幣安排董桂森從桃園機場偷渡出境至菲律賓，使用自己的女性護照。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "helper", "description": "安排出境"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "liu-huan-rong",
+      "nameCht": "劉煥榮",
+      "nameEng": null,
+      "aliases": ["神經劉"],
+      "role": "竹聯忠堂，十大槍擊要犯",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": "1993",
+      "deathCause": "台灣槍決",
+      "description": "竹聯忠堂成員，十大槍擊要犯。在菲律賓保護董桂森。1993年在台灣被槍決。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "protector", "description": "在菲律賓護董"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "huang-shao-cen",
+      "nameCht": "黃少岑",
+      "nameEng": null,
+      "aliases": ["么么"],
+      "role": "竹聯幫幫主（陳啟禮後繼）",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫幫主。在澳門協助安排梁東屏赴柬埔寨採訪陳啟禮。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "successor", "description": "竹聯幫繼任幫主"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["附錄"]
+    },
+    {
+      "id": "lu-keng",
+      "nameCht": "陸鏗",
+      "nameEng": null,
+      "aliases": [],
+      "role": "名記者",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "著名記者，崔蓉芝的黃昏之戀對象。1996年首度透露崔蓉芝曾進監獄看過董桂森。",
+      "relationships": [
+        {"target": "cui-rong-zhi", "type": "companion", "description": "黃昏之戀對象"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "chen-zhong",
+      "nameCht": "陳鐘",
+      "nameEng": null,
+      "aliases": [],
+      "role": "陳啟禮之父，司法官出身",
+      "group": "family",
+      "birth": null,
+      "death": null,
+      "description": "陳啟禮之父，司法官出身。案後從台灣致電白狼：如繼續指控蔣孝武，國民黨會秘密處決獄中的陳啟禮。分析董桂森必是睡夢中遭暗算。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "parent", "description": "兒子"}
+      ],
+      "sources": ["dong", "fires-vol2"],
+      "chapters": ["5", "6"]
+    },
+    {
+      "id": "liu-jia-chang",
+      "nameCht": "劉家昌",
+      "nameEng": null,
+      "aliases": [],
+      "role": "電影導演，吳敦的重要人脈",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "電影導演。吳敦一清專案後透過劉家昌安排投案。",
+      "relationships": [
+        {"target": "wu-dun", "type": "friend", "description": "重要人脈"}
+      ],
+      "sources": ["wu"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "wang-yu",
+      "nameCht": "王羽",
+      "nameEng": null,
+      "aliases": [],
+      "role": "電影明星",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "電影明星，與竹聯幫有關聯。吳敦回憶錄提及王羽與劉家昌衝突事件。",
+      "relationships": [],
+      "sources": ["wu"],
+      "chapters": ["3"]
+    },
+    {
+      "id": "yan-xiao-wen",
+      "nameCht": "顏曉文",
+      "nameEng": null,
+      "aliases": [],
+      "role": "雲南軍閥龍雲之子，「燕京宮」餐館老闆",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "雲南軍閥龍雲之子，在華府經營「燕京宮」餐館，為中共聯絡處供餐。慷慨資助劉宜良約五千美金繼續寫作，希望劉為其父龍雲寫傳。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "patron", "description": "資助劉宜良寫作"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "james-jordan",
+      "nameCht": "詹姆士·喬丹",
+      "nameEng": "James Jordan",
+      "aliases": [],
+      "role": "前海軍陸戰隊員、劉宜良在美好友",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "前海軍陸戰隊員，中國通，劉宜良在美國的好友。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "friend", "description": "在美好友"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "ray-cline",
+      "nameCht": "瑞·克萊恩",
+      "nameEng": "Ray Cline",
+      "aliases": [],
+      "role": "CIA台灣站站長（1958-1962），後為雷根顧問",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "CIA台灣站站長（1958-1962），與蔣經國有深厚私交。後成為雷根主要顧問，以台灣為主要客戶。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "friend", "description": "深厚私交"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "wu-jian-guo",
+      "nameCht": "吳建國",
+      "nameEng": null,
+      "aliases": [],
+      "role": "學者，著有《破局》",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "學者，2017年出版《破局》。採訪汪希苓，首度曝光制裁江南有一個「說不出的原因」——劉宜良正著手撰寫《宋美齡傳》。整理汪希苓下令制裁的五個理由。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "interviewer", "description": "訪談汪希苓"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "li-tian-duo",
+      "nameCht": "李天鐸",
+      "nameEng": null,
+      "aliases": [],
+      "role": "國安局退役上校，著有《江南案拼圖》",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "國安局退役上校。2024年出版《江南案拼圖：改變中華民國國運的關鍵》，邀請陳虎門等涉案人員參加新書發表會。",
+      "relationships": [],
+      "sources": ["public"],
+      "chapters": ["7"]
+    },
+    {
+      "id": "david-kaplan",
+      "nameCht": "大衛·凱普蘭",
+      "nameEng": "David E. Kaplan",
+      "aliases": ["大衛·乘伯倫"],
+      "role": "美國記者，《龍之火》作者",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "美國記者，撰寫《Fires of the Dragon》（龍之火），為第一本有系統研究江南案的著作。1993年新新聞出版中譯本。",
+      "relationships": [],
+      "sources": ["fires-vol1", "fires-vol2"],
+      "chapters": ["全書"]
+    },
+    {
+      "id": "liang-dong-ping",
+      "nameCht": "梁東屏",
+      "nameEng": null,
+      "aliases": [],
+      "role": "記者、《江南案槍手董桂森》作者",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "前《美洲中國時報》、《北美日報》記者。與董桂森有長期獨家採訪關係，著有《江南案槍手董桂森》。首度揭露崔蓉芝見董桂森、董桂森獄中遇刺真正原因。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "interviewer", "description": "長期獨家採訪關係"},
+        {"target": "zhang-an-le", "type": "contact", "description": "採訪關係"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["全書"]
+    },
+    {
+      "id": "wang-shi-chun",
+      "nameCht": "汪士淳",
+      "nameEng": null,
+      "aliases": [],
+      "role": "《聯合報》記者、《忠與過》作者",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "《聯合報》記者，曾獲金鼎獎。歷經五年取得汪希苓信任後進行訪談，撰寫《忠與過》傳記。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "interviewer", "description": "五年訪談關係"}
+      ],
+      "sources": ["wang"],
+      "chapters": ["全書"]
+    },
+    {
+      "id": "lan-zu-wei",
+      "nameCht": "藍祖蔚",
+      "nameEng": null,
+      "aliases": [],
+      "role": "吳敦回憶錄錄寫者",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "《吳敦回憶錄》的錄寫者。",
+      "relationships": [
+        {"target": "wu-dun", "type": "collaborator", "description": "回憶錄錄寫者"}
+      ],
+      "sources": ["wu"],
+      "chapters": ["全書"]
+    },
+    {
+      "id": "terry-yang",
+      "nameCht": "泰瑞",
+      "nameEng": "Terry Yang",
+      "aliases": ["泰瑞·楊"],
+      "role": "暗殺行動接應司機",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "暗殺當日駕駛租來旅行車的司機。",
+      "relationships": [],
+      "sources": ["dong", "wu", "fires-vol2"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "meng-lin",
+      "nameCht": "夢麟",
+      "nameEng": null,
+      "aliases": ["張兆強"],
+      "role": "竹聯幫成員，董桂森離別時的見證人",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "竹聯幫成員。董桂森凌晨離開張安樂家時向其告別，託付照顧家人。",
+      "relationships": [
+        {"target": "dong-gui-sen", "type": "friend", "description": "竹聯幫兄弟"}
+      ],
+      "sources": ["dong"],
+      "chapters": ["4"]
+    },
+    {
+      "id": "ouyang-tang",
+      "nameCht": "歐陽塘",
+      "nameEng": null,
+      "aliases": [],
+      "role": "國民黨駐舊金山代表",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "國民黨駐舊金山代表。拜訪大理市警察局試圖疏通和威脅，適得其反。",
+      "relationships": [],
+      "sources": ["fires-vol2"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "li-deng-hui",
+      "nameCht": "李登輝",
+      "nameEng": "Lee Teng-hui",
+      "aliases": [],
+      "role": "中華民國總統（蔣經國之後）",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "蔣經國選擇的台灣人副總統。1988年蔣經國逝世後繼任總統。1991年廢除動員戡亂時期臨時條款，宣告「內戰」結束。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "successor", "description": "繼任總統"}
+      ],
+      "sources": ["fires-vol2", "public"],
+      "chapters": ["7"]
+    },
+    {
+      "id": "hao-bo-cun",
+      "nameCht": "郝柏村",
+      "nameEng": null,
+      "aliases": [],
+      "role": "參謀總長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "參謀總長。為五人小組成員之一。曾由其安排蔣孝武、蔣孝勇邀汪希苓與溫哈熊同桌吃飯化解衝突。",
+      "relationships": [],
+      "sources": ["wang", "fires-vol2"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "shen-chang-huan",
+      "nameCht": "沈昌煥",
+      "nameEng": null,
+      "aliases": [],
+      "role": "外交部長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "外交部長。為五人小組成員之一。得知中美斷交消息後第一條指示是「提出辭呈」。",
+      "relationships": [],
+      "sources": ["wang", "fires-vol2"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "wen-ha-xiong",
+      "nameCht": "溫哈熊",
+      "nameEng": null,
+      "aliases": [],
+      "role": "安全局軍資組長",
+      "group": "intelligence",
+      "birth": null,
+      "death": null,
+      "description": "安全局軍資組長/大使館國防用品採購部主任，蔣經國前翻譯。與汪希苓有矛盾，因王昇訪美事件引發衝突。",
+      "relationships": [
+        {"target": "wang-hsi-ling", "type": "rival", "description": "在美期間的矛盾"}
+      ],
+      "sources": ["fires-vol1", "wang"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "chen-zhi-ren",
+      "nameCht": "陳志仁",
+      "nameEng": null,
+      "aliases": ["小寶"],
+      "role": "陳志一（黃鳥）弟弟",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "陳志一弟弟，英文流利。陪同吳敦等人從休斯頓經西雅圖返台。",
+      "relationships": [
+        {"target": "chen-zhi-yi", "type": "sibling", "description": "哥哥"}
+      ],
+      "sources": ["wu"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "xie-da-ling",
+      "nameCht": "謝大鈴",
+      "nameEng": null,
+      "aliases": ["謝大明"],
+      "role": "陳啟禮在洛杉磯的朋友",
+      "group": "bamboo-union",
+      "birth": null,
+      "death": null,
+      "description": "陳啟禮在洛杉磯的朋友。保命錄音帶在其家中地下室錄製。",
+      "relationships": [
+        {"target": "chen-qi-li", "type": "friend", "description": "提供錄音場地"}
+      ],
+      "sources": ["dong", "wu"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "zhou-can-xiong",
+      "nameCht": "周燦雄",
+      "nameEng": null,
+      "aliases": [],
+      "role": "吳敦的辯護律師",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "吳敦的辯護律師。提出傳陳虎門作證的策略，為審判策略關鍵人物。",
+      "relationships": [
+        {"target": "wu-dun", "type": "lawyer", "description": "辯護律師"}
+      ],
+      "sources": ["wu"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "kong-jie-rong",
+      "nameCht": "孔傑榮",
+      "nameEng": "Jerome A. Cohen",
+      "aliases": [],
+      "role": "東亞研究學者、人權律師",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "東亞研究學者、人權律師。擔任崔蓉芝在台灣審判的特別顧問。",
+      "relationships": [
+        {"target": "cui-rong-zhi", "type": "legal-advisor", "description": "法律顧問"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "wang-ling-zhi",
+      "nameCht": "王靈智",
+      "nameEng": null,
+      "aliases": [],
+      "role": "柏克萊加大教授，伸張正義委員會發言人",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "柏克萊加州大學教授。擔任崔蓉芝伸張正義委員會的發言人。",
+      "relationships": [
+        {"target": "cui-rong-zhi", "type": "supporter", "description": "伸張正義委員會發言人"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "ge-qi-ke",
+      "nameCht": "葛其克",
+      "nameEng": null,
+      "aliases": [],
+      "role": "崔蓉芝法律顧問",
+      "group": "investigation",
+      "birth": null,
+      "death": null,
+      "description": "律師。擔任崔蓉芝及伸張正義委員會的法律顧問。",
+      "relationships": [
+        {"target": "cui-rong-zhi", "type": "lawyer", "description": "法律顧問"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["6"]
+    },
+    {
+      "id": "huang-wen-xiong",
+      "nameCht": "黃文雄",
+      "nameEng": null,
+      "aliases": [],
+      "role": "康乃爾大學台灣研究生，刺蔣未遂",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "康乃爾大學台灣研究生。1970年蔣經國訪紐約時行刺未遂。",
+      "relationships": [
+        {"target": "chiang-ching-kuo", "type": "adversary", "description": "行刺未遂"}
+      ],
+      "sources": ["fires-vol1"],
+      "chapters": ["1"]
+    },
+    {
+      "id": "bo-yang",
+      "nameCht": "柏楊",
+      "nameEng": "Bo Yang",
+      "aliases": [],
+      "role": "暢銷書作家",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "台灣暢銷書作家。因翻譯大力水手漫畫影射蔣氏父子被捕入獄。",
+      "relationships": [],
+      "sources": ["fires-vol1"],
+      "chapters": ["2"]
+    },
+    {
+      "id": "lei-yu-qi",
+      "nameCht": "雷渝齊",
+      "nameEng": null,
+      "aliases": [],
+      "role": "《雷聲週刊》發行人",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "《雷聲週刊》發行人。1984年11月首度公開將竹聯幫與江南案聯繫。",
+      "relationships": [],
+      "sources": ["dong", "fires-vol2"],
+      "chapters": ["5"]
+    },
+    {
+      "id": "cheng-si-yuan",
+      "nameCht": "程思遠",
+      "nameEng": null,
+      "aliases": [],
+      "role": "中國政協副秘書長",
+      "group": "international",
+      "birth": null,
+      "death": null,
+      "description": "中國政協副秘書長。劉宜良1984年第四次訪中時在北京會見。",
+      "relationships": [
+        {"target": "liu-yi-liang", "type": "contact", "description": "北京會見"}
+      ],
+      "sources": ["fires-vol2"],
+      "chapters": ["4"]
+    }
+  ]
+}
