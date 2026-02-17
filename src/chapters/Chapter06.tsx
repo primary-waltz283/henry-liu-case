@@ -3,6 +3,7 @@ import Citation from '../components/narrative/Citation'
 import ContradictionBox from '../components/narrative/ContradictionBox'
 import DossierCard from '../components/narrative/DossierCard'
 import ScrollSection from '../components/narrative/ScrollSection'
+import PrisonFadeScene from '../components/pixel/scenes/PrisonFadeScene'
 import { getContradiction } from '../data/contradictions'
 
 const trialContradiction = getContradiction('trial-political-performance')!
@@ -163,11 +164,7 @@ export default function Chapter06() {
       <ScrollSection minHeight="150vh">
         {(progress) => (
           <div className="sticky top-0 flex h-screen items-center justify-center">
-            {/* TODO: Task 4.7 — PrisonFadeScene pixel art */}
-            <div className="text-center text-neutral">
-              <p className="text-sm">[prison-fade pixel art scene]</p>
-              <p className="text-xs">progress: {progress.toFixed(2)}</p>
-            </div>
+            <PrisonFadeScene progress={progress} className="max-w-3xl" />
           </div>
         )}
       </ScrollSection>
