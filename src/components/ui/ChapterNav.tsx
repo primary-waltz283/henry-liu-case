@@ -90,6 +90,18 @@ export default function ChapterNav() {
       {/* Chapter list overlay */}
       {open && (
         <ul className="absolute right-0 top-12 w-56 rounded-lg border border-paper-300 bg-paper-50/95 py-2 shadow-lg backdrop-blur-sm">
+          <li>
+            <a
+              href="https://nectamen.com/"
+              className="flex w-full items-center gap-3 px-4 py-2 text-left text-sm text-neutral transition-colors hover:bg-paper-200"
+            >
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-paper-200 text-xs text-ink-700">
+                ↑
+              </span>
+              <span className="truncate">回到首頁</span>
+            </a>
+          </li>
+          <li aria-hidden="true"><hr className="mx-2 my-1 border-paper-300" /></li>
           {CHAPTERS.map((ch) => (
             <li key={ch.id}>
               <button
