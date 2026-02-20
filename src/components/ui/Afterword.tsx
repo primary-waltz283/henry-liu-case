@@ -107,7 +107,7 @@ export default function Afterword() {
         <p className="mb-3 text-sm font-bold text-ink-800">系列網站</p>
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
           <a
-            href="https://soanseng.github.io/the-lin/"
+            href="https://lin.nectamen.com/"
             className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue"
             target="_blank"
             rel="noopener noreferrer"
@@ -115,7 +115,7 @@ export default function Afterword() {
             林宅血案
           </a>
           <a
-            href="https://soanseng.github.io/Chen-Wen-chen/"
+            href="https://cwc.nectamen.com/"
             className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue"
             target="_blank"
             rel="noopener noreferrer"
@@ -123,6 +123,14 @@ export default function Afterword() {
             陳文成事件
           </a>
           <span className="text-neutral">江南案（本站）</span>
+          <a
+            href="https://nylon.nectamen.com/"
+            className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            鄭南榕事件
+          </a>
         </div>
       </div>
     </section>
