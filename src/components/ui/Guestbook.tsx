@@ -40,7 +40,7 @@ export default function Guestbook() {
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
-        theme="noborder_dark"
+        theme="noborder_light"
         lang="zh-TW"
         loading="lazy"
       />
