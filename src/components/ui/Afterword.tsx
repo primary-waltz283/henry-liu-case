@@ -17,7 +17,7 @@ export default function Afterword() {
 
       <div className="space-y-6 text-base leading-relaxed text-ink-700">
         <p>
-          做完<a href="https://soanseng.github.io/the-lin/" className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue" target="_blank" rel="noopener noreferrer">林宅血案</a>、<a href="https://soanseng.github.io/Chen-Wen-chen/" className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue" target="_blank" rel="noopener noreferrer">陳文成事件</a>的網站後，朋友問我：「你要不要順便把蔣經國時代的三大案，把江南案也做完？」
+          做完<a href="https://lin.nectamen.com/" className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue" target="_blank" rel="noopener noreferrer">林宅血案</a>、<a href="https://cwc.nectamen.com/" className="text-link-blue underline decoration-link-blue/30 underline-offset-2 hover:decoration-link-blue" target="_blank" rel="noopener noreferrer">陳文成事件</a>的網站後，朋友問我：「你要不要順便把蔣經國時代的三大案，把江南案也做完？」
         </p>
 
         <p>
